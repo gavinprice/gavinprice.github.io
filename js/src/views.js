@@ -512,7 +512,9 @@ BodyAtlas.View = {
             this.eventBus = options.eventBus;
 
             var fhirInfo= {};
-
+            console.log(document.referrer);
+            console.log(document.URL);
+            console.log(document.referrer == document.URL);
             FHIR.oauth2.ready(function(smart){
                 var patient = smart.context.patient;
 
