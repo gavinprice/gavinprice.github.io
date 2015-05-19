@@ -1,0 +1,6449 @@
+[
+    {
+        "x": 110,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 21,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 21,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 21,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 75,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 75,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 75,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 93,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 93,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 102,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 40,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 40,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 93,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 70,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 70,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 70,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 70,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 40,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 246,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 50,
+        "y": 300,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 45,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 55,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 300,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 65,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 60,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 70,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 70,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 435,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 435,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 435,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 435,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 155,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 160,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 246,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 185,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 185,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 246,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 309,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 185,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 185,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 185,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 300,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 190,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 185,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 155,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 185,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 160,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 160,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 180,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 155,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 102,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 93,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 160,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 175,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 170,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 160,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 155,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 155,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 160,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 155,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 165,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 85,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 75,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 264,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 264,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 100,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 90,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 273,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 95,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 115,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 125,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 130,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 145,
+        "y": 255,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 140,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 135,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 246,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 150,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 155,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 21,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 21,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 21,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 75,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 57,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 75,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 66,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 75,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 265,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 270,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 265,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 240,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 240,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 265,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 270,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 270,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 265,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 270,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 246,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 240,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 240,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 250,
+        "y": 300,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 240,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 245,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 240,
+        "y": 246,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 240,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 265,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 265,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 260,
+        "y": 300,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 255,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 237,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 237,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 435,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 435,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 480,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 453,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 471,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 435,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 426,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 462,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 444,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 417,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 399,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 408,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 390,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 381,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 372,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 363,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 345,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 327,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 336,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 309,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 318,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 355,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 300,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 282,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 291,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 237,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 237,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 264,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 355,
+        "y": 273,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 360,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 237,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 246,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 237,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 237,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 192,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 210,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 355,
+        "y": 255,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 285,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 280,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 275,
+        "y": 237,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 295,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 290,
+        "y": 228,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 210,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 219,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 355,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 360,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 183,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 355,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 129,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 111,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 310,
+        "y": 120,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 84,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 300,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 305,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 315,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 320,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 355,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 138,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 335,
+        "y": 147,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 156,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 330,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 325,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 174,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 201,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 340,
+        "y": 192,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 165,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 360,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 360,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 355,
+        "y": 129,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 111,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 345,
+        "y": 93,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 350,
+        "y": 102,
+        "bodyLocation": 2,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 360,
+        "y": 102,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 120,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 138,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 156,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 183,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 165,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 147,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 201,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 360,
+        "y": 174,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 219,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 228,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 237,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 246,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 365,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 300,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 370,
+        "y": 246,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 264,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 375,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 255,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 273,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 385,
+        "y": 291,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 380,
+        "y": 300,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 40,
+        "y": 282,
+        "bodyLocation": 1,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 80,
+        "y": 354,
+        "bodyLocation": 3,
+        "severity": 6,
+        "flagged": false
+    }
+]

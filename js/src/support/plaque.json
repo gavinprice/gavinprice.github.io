@@ -1,0 +1,37 @@
+[
+    {
+        "x": 110,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 110,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 30,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 120,
+        "y": 48,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    },
+    {
+        "x": 105,
+        "y": 39,
+        "bodyLocation": 0,
+        "severity": 6,
+        "flagged": false
+    }
+]30

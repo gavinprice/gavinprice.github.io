@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Abbott - Psoriasis Body Atlas</title>
+    <link rel="stylesheet" href="/css/themes/base/jquery.ui.all.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<script src="https://rawgithub.com/smart-on-fhir/client-js/master/dist/fhir-client.js"></script>
+    <script>
+      FHIR.oauth2.authorize({
+        "client_id": "my_web_app",
+        "scope":  "patient/*.read"
+      });
+    </script>
+</head>
+<body>
+	<div class="screen">
+		<form id="frmMain">
+			<div id="topNavigationBar" class="top-navigation-bar">
+				<div id="logo"><a></a></div>
+				<div id="home-nav-option" class="home-nav-option-selected"></div>
+				<div id="about-nav-option" class="about-nav-option"></div>
+				<div id="print-nav-option" class="print-nav-option"></div>
+                <div id="help-nav-option" class="help-nav-option"></div>
+			</div>
+			<br />
+			<br />
+			<div id="shell" class="shell">
+				<div class="topBorder">
+				</div>
+				<div id="rightBorder" class="rightBorder">
+				</div>
+				<!-- holds all elements shown in the main display window -->
+				<div id="container">
+
+					<div id="container-cover"></div>
+
+					<div id="pallette-bar">
+						<div id="pallette-bar-title"></div>
+						<div id="severity-plaque-level1" class="severity-plaque-level1_selected"></div>
+						<div id="severity-plaque-level2" class="severity-plaque-level2"></div>
+						<div id="severity-plaque-level3" class="severity-plaque-level3"></div>
+						<div id="severity-plaque-level4" class="severity-plaque-level4"></div>
+						<div id="severity-plaque-level5" class="severity-plaque-level5"></div>
+						<div id="severity-plaque-level6" class="severity-plaque-level6"></div>
+						<div id="severity-add-option" class = "severity-add-option"></div>
+						<div id="severity-reduce-option" class = "severity-reduce-option"></div>
+						<div id="severity-remove-option" class = "severity-remove-option"></div>
+                        <div id="itch-slider" class="slider-selection">
+						<div class="itchMenuSelector" id="itchMenuSelector">
+                            <div class="painItchOptionTitle">ITCHING & PAIN</div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div id="calculateItch" style="margin-left:-2px;" class="pi-radio-button"><div class="menuSelectorText">
+                                            <div class="menuSelectorRadioButtonText">Expected</div>
+                                                                                    <input type="radio" name="itchSelector" value="calculate" id="calculateItchRadio"
+                                            style="display: none;" />
+
+                                        </div>
+
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <div id="setItch" style="margin-left:4px;" class="pi-radio-button">
+                                            <div class="menuSelectorText">
+                                            <div class="menuSelectorRadioButtonText">
+                                                Custom</div>
+                                        </div>
+                                        <input type="radio" name="itchSelector" value="set" id="setItchRadio" style="display: none;" />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="itchPainInfoContainer">
+							<div class="itchPainTextContainer">
+                                <!--Commenting it out in case she wants to go back-->
+								<!--<div id="itchToolTipIcon" class="info-bubble-icon-inactive painItchToolTipIcon"></div>
+-->								<div id="itch" class="slider-label"></div>
+							</div>
+							<div class="slider-text-area-itch-pain">
+						<input type="text" id="txtItch" class="slider-text"/></div>
+
+						</div>
+							<div class="slider-area-itch-pain">
+								<div class="slider-bar-itch-pain">
+									<div id="sliderItch" class="itch_slider"></div>
+								</div>
+								<div class="sliderLabelContainer">
+									<div style="float:left;">None</div>
+									<div style="float:right;">Worst</div>
+								</div>
+							</div>
+						</div>
+						<div id="pain-slider" class="slider-selection">
+						<div class="itchPainInfoContainer">
+							<div class="itchPainTextContainer">
+                                <!--Removing as per Min's latest Request, commenting it out in case she wants to go back.-->
+								<!--<div id="painToolTipIcon" class="info-bubble-icon-inactive painItchToolTipIcon"></div>-->
+								<div id="pain" class="slider-label"></div>
+							</div>
+								<div class="slider-text-area-itch-pain"><input type="text" id="txtPain" class="slider-text"/></div>
+								</div>
+							<div class="slider-area-itch-pain">
+								<div class="slider-bar-itch-pain">
+									<div id="sliderPain" class="pain_slider"></div>
+								</div>
+																<div class="sliderLabelContainer">
+									<div style="float:left;">None</div>
+									<div style="float:right;">Worst</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+					<div id="patient-data-window">
+
+						<div id="patient-window-top"></div><div id="error-message"><label id="lblErrorMsg"></label></div>
+						<div class="patient-window-divider"></div>
+						<div id="divCover" class="inputCover" style="display:none;"></div>
+						<div id="radioSelections" class="radio-selections">
+
+							<div class="radio-selection">
+								<div id="label-name">
+									<div id="name">Name</div>
+									<div class="text-area">
+										<div class="name-text-area"><label id="lblName" class="name-text"></label></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="radio-selection">
+								<div class="label"><div id="gender"></div></div>
+								<div class="radio-buttons">
+									<div class="radio-button" id="genderMale"></div><div class="radio-buttons-text"><div id="male"></div></div>
+									<div class="radio-button" id="genderFemale"></div><div class="radio-buttons-text"><div id="female"></div></div>
+									<input type="radio" name="gender" value="male" id="genderMaleRadio" checked style="display: none;" />
+									<input type="radio" name="gender" value="female" id="genderFemaleRadio" style="display: none;" />
+								</div>
+							</div>
+							<div class="radio-selection">
+								<div class="label"><div id="employed"></div></div>
+								<div class="radio-buttons">
+									<div class="radio-button" id="employedYes"></div><div class="radio-buttons-text"><div id="yes"></div></div>
+									<div class="radio-button" id="employedNo"></div><div class="radio-buttons-text"><div id="no"></div></div>
+									<input type="radio" name="employed" value="yes" id="employedYesRadio" checked style="display: none;" />
+									<input type="radio" name="employed" value="no" id="employedYesRadio" style="display: none;" />
+								</div>
+							</div>
+
+						</div>
+						<div id="sliderSelections" class="slider-selections">
+							<div class="slider-selection">
+								<div class="label"><div id="age"></div></div>
+								<div class="slider-area">
+									<div class="slider-bar">
+										<div id="sliderAge" class="age_slider"></div>
+										<div id="sliderAge-min" class="age_slider_min"></div>
+										<div id="sliderAge-max" class="age_slider_max"></div>
+									</div>
+									<div class="slider-text-area"><input type="text" id="txtAge" class="slider-text"/> years</div>
+								</div>
+							</div>
+                            <div class="slider-selection">
+								<div class="label"><div id="psoriasisduration"></div></div>
+								<div class="slider-area">
+									<div class="slider-bar">
+										<div id="sliderDuration" class="duration_slider"></div>
+										<div id="sliderDuration-min" class="duration_slider_min"></div>
+										<div id="sliderDuration-max" class="duration_slider_max"></div>
+									</div>
+									<div class="slider-text-area"><input type="text" id="txtDuration" class="slider-text"/> years</div>
+								</div>
+							</div>
+							<div class="slider-selection">
+								<div id="label-weight">
+									<div id="weight">Weight</div>
+									<div class="lparen">(</div>
+									<div class="radio-buttons">
+										<div class="radio-button-selected" id="weightUnitKgs"></div>
+										<div class="radio-buttons-text"><div id="weight-unit-txt-kgs">kgs</div></div>
+										<div class="radio-button" id="weightUnitLbs"></div>
+										<div class="radio-buttons-text"><div id="weight-unit-txt-lbs">lbs</div></div>
+										<input type="radio" name="weight-unit" value="kgs" id="weightUnitKgsRadio" checked style="display: none;" />
+										<input type="radio" name="weight-unit" value="lbs" id="weightUnitLbsRadio" style="display: none;" />
+									</div>
+									<div class="rparen">)</div>
+								</div>
+								<div class="slider-area">
+									<div class="slider-bar">
+										<div id="sliderWeight" class="weight_slider"></div>
+										<div id="sliderWeight-min" class="weight_slider_min"></div>
+										<div id="sliderWeight-max" class="weight_slider_max"></div>
+									</div>
+									<div class="slider-text-area"><input type="text" id="txtWeight" class="slider-text"/> <span class="unit">kgs</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="patient-window-divider"></div>
+						<div>
+						<div id="confirmChangeDiv" style="display:none;" class="confirmDiv">Changing gender will clear the psoriasis signs and symptoms you have entered. Please click OK to confirm this change or CANCEL to go back without changing gender.
+						<div class="confirmButtons">
+							<div id="btnConfirmCancel"  class="confirmCancel"></div>
+							<div id="btnConfirmOk" class="confirmOk"></div>
+						</div>
+						</div>
+						<div id="btnStart" class="button-start"></div>
+						</div>
+					</div>
+					<div id="psoriasis-canvas">
+					</div>
+
+					<div class="main">
+
+					<div id="psoriasis-canvas-container" class="bodyinputs">
+						<!-- Layer 1 - Body Images -->
+						<div id="psoriasis-image-canvas">
+							<img id="base-image" src="../images/male_front_back_base.png" border="0" />
+						</div>
+						<!-- Layer 2 - Hexagon Paint Canvas -->
+						<div id="psoriasis-hexagon-canvas">
+						</div>
+						<!-- Layer 3 - Body Images Transparent Layer -->
+						<div id="psoriasis-masking-canvas">
+							<img id="masking-image" src="../images/male_front_back_transparent.png" border="0" />
+						</div>
+						<!-- Layer 4 - Body Itch Layer -->
+						<div id="psoriasis-itch-canvas">
+							<img id="itch-image" src="../images/male_front_back_transparent_itch.png" border="0" />
+						</div>
+						<!-- Layer 5 - Body Pain Layer -->
+						<div id="psoriasis-pain-canvas">
+							<img id="pain-image" src="../images/male_front_back_transparent_pain.png" border="0" />
+						</div>
+						<!-- Layer 6 - Body Event Layer -->
+						<div id="psoriasis-event-canvas" ondragstart="return false;">
+							<img id="event-image" src="../images/male_front_back_base_transparent.png" border="0" />
+							<div id="psoriasis-event-canvas-bottom"></div>
+                            <input type="hidden" id="hiddenClearStatus" value="false" />
+						</div>
+
+					</div>
+
+					<div class="patientinputs">
+						<div id="patient-view-window">
+							<div id="patient-view-window-top"></div>
+							<div id="patient-view-window-edit-option"></div>
+							<div class="patient-view-window-divider"></div>
+							<div id="patient-view-window-left" >
+								<div id="name_view">Name:<label id="lName" class="patient-view-value-label_name"></label></div>
+								<div id="age_view">Age:<label id="lAge" class="patient-view-value-label_age"></label></div>
+                                <div id="gender_view">Gender:<label id="lGender" class="patient-view-value-label_gender"></label></div>
+								<div id="employed_view">Employed:<label id="lEmployed" class="patient-view-value-label_employed"></label></div>
+							</div>
+							<div id="patient-view-window-right">
+								<div id="psoriasisduration_view">Psoriasis Duration:<label id="lPsoriasisDuration" class="patient-view-value-label_duration"></label></div>
+                                <div id="weight_view">Weight:<label id="lWeight" class="patient-view-value-label_weight"></label></div>
+							</div>
+						</div>
+					</div>
+
+					<div id="instructions-panel">
+						<div class="patient-view-window-divider"></div>
+						<div id="instructions">
+							<div class="instructionTitle">Follow these steps to use Psoriasis Body Atlas</div>
+                            <div id="instructionStep1" class="instructionStep1Active">
+                                <div id="btnStep1" class="instructionsDoneButton"></div>
+                            </div>
+                            <div id="instructionStep2" class="instructionStep2Inactive">
+                                <div id="btnStep2" style="display:none;" class="instructionsDoneButtonStep2 instructionsDoneButton"></div>
+                            </div>
+
+                        </div>
+
+					</div>
+
+					<div id = "aggregate-score-panel" style="display: none">
+                        <div id="coverage_and_Pasi_view" class="dlqiinfotext"></div>
+                        <div class = "patient-view-window-divider"></div>
+                    </div>
+
+					<div id="impact-graphs" style="display: none">
+                    <div class="tabContainerLeftBorder"></div>
+                    <div class="tabSpecificTabHeaderBorderBottom"></div>
+                        <ul class="tab-header-group">
+                            <li  id="tab-left"><a href="#tabs-content-left" class="tab-header" style="font-size:14px;">SPECIFIC PROBLEMS</a></li>
+							<li  id="tab-right"><a href="#tabs-content-right" class="tab-header" style="font-size:14px;">OVERALL IMPACT</a></li>
+						</ul>
+						<div id="tabscontainer" >
+							<div id="tabs-content-left">
+								<div id = "sortButton" class="orderButton"></div>
+                                <div id="unsortButton" class="orderButton" style="display:none;"></div>
+								<div class="legend">
+									<p class="legend-note">Psoriasis patients with the signs and symptoms you have entered are affected by these problems...</p>
+									<div class="legendkeys">
+										<div class="key">
+											<img class="graphkey" src="/images/legend_key_low.png" />
+											<span>A little</span>
+										</div>
+										<div class="key">
+											<img class="graphkey" src="/images/legend_key_medium.png" />
+											<span>A lot</span>
+										</div>
+										<div class="key">
+											<img class="graphkey" src="/images/legend_key_high.png" />
+											<span>Very much</span>
+										</div>
+
+									</div>
+									<div class="legendpercents">
+										<div class="graphshift"></div>
+										<div class="highpercent">100%</div>
+										<div class="lowpercent">0%</div>
+									</div>
+									<div class="legendend"></div>
+									<hr />
+								    <div>
+								      <div id="dlqigraphs"></div>
+							        </div>
+						        </div>
+						    </div>
+					        <div id="tabs-content-right">
+								<div id="dlqiaggrgate-graphs">
+
+								</div>
+								<div id="QOL-graphs">
+								</div>
+							</div>
+                        </div>
+				   </div>
+           	</div>
+         </div>
+         <div id="about-screen">
+         <div id="about-screen-container" class="about-screen-container">
+				<div id="about-screen-title"><h1><a name="top">About the Psoriasis Body Atlas</a></h1></div>
+					<div id="about-screen-contents">
+						<ul>
+  							<li><a href="#ToolDescription">What does this tool do?</a></li>
+  							<li><a href="#ExplanationOfInputs">Explanation of Inputs</a></li>
+  							<li><a href="#ExplanationOfOutputs">Explanation of Outputs</a></li>
+  							<li><a href="#SourceData">Source Data</a></li>
+  							<li><a href="#Disclaimer">Disclaimer</a></li>
+                            <li><a href="#References">References</a></li>
+  							<li><a href="#Contact">Contact</a></li>
+						</ul>
+					</div>
+					<br/>
+					<div id="about-screen-toolDescription">
+						<h2><a name="ToolDescription">What does this tool do?</a></h2>
+
+							<p>
+								This tool illustrates how itching, pain and psoriasis plaques may affect an individual's quality of life and daily activities in patients with a history of moderate-to-severe psoriasis.
+								After indicating a patient's age, sex, weight, psoriasis duration and employment status, the extent and severity of psoriasis plaques are drawn directly on the body surface by painting the plaques over the body outline.
+								Levels of itching and pain can be entered using sliders or using the default function for an automatic update.
+							</p>
+							<p>
+								Based on these inputs, the tool displays projected psoriasis impact on quality of life, activity, and work productivity (for employed patients).
+								The projections are based on data from over 4,000 patients receiving treatment for moderate to severe psoriasis in clinical trials.
+							</p>
+							<p>
+								Further description of the inputs and outputs are described below.
+							</p>
+
+					</div>
+
+						<br/>
+					<div id="about-screen-explanationOfInputs" class="about-screen-explanationOfInputs">
+						<h2><a name="ExplanationOfInputs">Inputs</a></h2>
+						<p>
+							<ol>
+								<li>Age</li>
+									<p>Values between 18 and 90 years old are allowed. Ages below 18 and above 90 years were not well-represented in the source data for this tool.</p>
+								<li>Sex</li>
+									<p>Male or female.</p>
+								<li>Weight</li>
+									<p>Values between 40 and 200 kg (88 and 440 lbs) are allowed. Weights below 40 kg and above 200 kg were not well-represented in the source data for this tool.  The user may also enter weight in pounds. </p>
+								<li>Psoriasis duration (years)</li>
+									<p>Values up to 70 years are allowed.  Psoriasis durations longer than 70 years were not well-represented in the source data for this tool.</p>
+								<li>Employment</li>
+									<p>Current employment status (yes/no).</p>
+								<li>Psoriasis-related itching (pruritus) and pain</li>
+									<p>Two separate scales are used to input the patient-reported severity of itchiness and pain <span class="underline"> over the past week</span>.</p>
+									<p>Itchiness is expressed on a slider with a range from 0 to 10, representing a scale typically used for measuring itchiness ranging from 0 (no itching) to 10 (worst itching).</p>
+									<p>Plaque psoriasis pain is expressed on a slider with a range from 0 to 10, representing a scale typically used for measuring pain ranging from 0 (no pain) to 10 (worst pain).</p>
+								<li>Psoriasis plaque area and severity</li>
+									<p>The extent and location of psoriasis skin plaques are drawn directly onto the body surface.
+									The tool accounts for the location of plaques in the head, upper extremities, trunk and lower extremities, since plaque location can have different impacts on quality of life.
+									Plaque severity is represented by varying color and ranges from least severe to most severe with six levels.  Psoriasis plaque severity takes into account erythema, induration, and scaling of the skin signs.
+									The photographs below illustrate the example for each level of severity.
+									</p>
+									<!-- <div id="about-screen-explanationOfInputs-plaques" class="about-screen-explanationOfInputs-plaques">
+										<img src="images/severity_level1_button.png"></img>
+										<img src="images/severity_level2_button.png"></img>
+										<img src="images/severity_level3_button.png"></img>
+										<img src="images/severity_level4_button.png"></img>
+										<img src="images/severity_level5_button.png"></img>
+										<img src="images/severity_level6_button.png"></img>
+									</div> -->
+							</ol>
+						</p>
+						<br/>
+						<div id="about-screen-psoriasis-severity" class="about-screen-psoriasis-severity">
+							<p>Severity Level 1</p>
+								<div id="about-screen-psoriasis-severity1-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="/images/level1.jpg"/>
+								</div>
+								<div id="about-screen-psoriasis-severity1-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="/images/arrow.png"/>
+								</div>
+								<div id="about-screen-psoriasis-severity1-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="/images/severity_level1_button.png"/>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 2</p>
+								<div id="about-screen-psoriasis-severity2-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="/images/level2.jpg"/>
+								</div>
+								<div id="about-screen-psoriasis-severity2-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="/images/arrow.png"/>
+								</div>
+								<div id="about-screen-psoriasis-severity2-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="/images/severity_level2_button.png"/>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 3</p>
+								<div id="about-screen-psoriasis-severity3-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="/images/level3.jpg"/>
+								</div>
+								<div id="about-screen-psoriasis-severity3-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="/images/arrow.png"/>
+								</div>
+								<div id="about-screen-psoriasis-severity3-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="/images/severity_level3_button.png"/>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 4</p>
+								<div id="about-screen-psoriasis-severity4-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="/images/level4.jpg"/>
+								</div>
+								<div id="about-screen-psoriasis-severity4-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="/images/arrow.png"/>
+								</div>
+								<div id="about-screen-psoriasis-severity4-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="/images/severity_level4_button.png"/>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 5</p>
+								<div id="about-screen-psoriasis-severity5-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="/images/level5.jpg">
+								</div>
+								<div id="about-screen-psoriasis-severity5-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="/images/arrow.png" />
+								</div>
+								<div id="about-screen-psoriasis-severity5-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="/images/severity_level5_button.png"/>
+								</div>
+
+							<p>Severity Level 6</p>
+								<div id="about-screen-psoriasis-severity6-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="/images/level6.jpg"/>
+								</div>
+								<div id="about-screen-psoriasis-severity6-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="/images/arrow.png"/>
+								</div>
+								<div id="about-screen-psoriasis-severity6-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="/images/severity_level5_button.png"/>
+								</div>
+						</div>
+					</div>
+					<a href="#top"><img src="/images/back_to_top_icon.png"/> Back to Top</a>
+					<br/>
+					<div id="about-screen-explanationOfOutputs">
+						<h2><a name="ExplanationOfOutputs">Outputs</a></h2>
+							<ol>
+								<li style="font-weight:bold">Percent of body surface affected and approximate PASI score</li>
+									<p>
+										The percentage of the body surface covered by plaques is computed directly from the plaques drawn by the user (range: 0 - 100%). An approximate Psoriasis Area and Severity Index (PASI) [1]
+										score is calculated by summing the scores of four weighted body regions (head, upper limbs, trunk, lower limbs), with a range from 0 (clear) to 72 (worst).
+									</p>
+									<p>
+										PASI scores are typically generated by assessing the extent, location and severity of plaques.
+										The PASI score produced by this tool is an approximation to the PASI score as typically generated. When drawing the psoriasis plaques on the body outline, note that the size of one hexagon is approximately equal to 0.10% of male and 0.11 of female body surface area (BSA).
+									</p>
+								<li style="font-weight:bold">Overall impact</li>
+									<p>
+										Three aspects of the overall impact of psoriasis are generated:
+										<ol>
+											<li>Overall quality of life impact (measured by the Dermatology Life Quality Index [2] in clinical trials);</li>
+											<li>Activity Impairment (measured by the Work Productivity and Activity Impairment Questionnaire [3] in clinical trials);</li>
+											<li>Work Productivity Impairment (measured by the Work Productivity and Activity Impairment Questionnaire [3] in clinical trials).</li>
+										</ol>
+									</p>
+									<p>
+										The <span style="font-weight:bold;">Dermatology Life Quality Index</span> (DLQI) is an established survey questionnaire assessing symptoms and impact of skin diseases "<span class="underline">over the last week</span>".
+										It consists of 10 items on various aspects that potentially affect/impact a patient's life. Please see below for details on the issues reflected by 10 individual DLQI items.
+										The total DLQI score is the sum of the responses to the individual items, ranging from 0 (least impairment) to 30 (greatest impairment). It can be interpreted as follows [4]:
+									</p>
+                                    <p style="margin-left:25px;">
+                                        0-1 = No effect at all on patient's life<br />
+                                        2-5 = Small effect on patient's life<br />
+                                        6-10 = Moderate effect on patient's life<br />
+                                        11-20 = Very large effect on patient's life<br />
+                                        21-30 = Extremely large effect on patient's life<br />
+                                    </p>
+									<p>
+										The  <span style="font-weight:bold;">Work Productivity and Activity Impairment Questionnaire</span> (WPAI) was designed to measure the amount of absenteeism, presenteeism, and daily activity impairment attributable
+										to either general health (WPAI:GH) or to a specific health problem (i.e., psoriasis in this case, WPAI:Ps).
+										The WPAI:Ps consists of six questions regarding current employment status, hours missed from routine work due to psoriasis or for other reasons,
+										the number of hours actually worked, and the degree to which the problem affected productivity and affected regular activities <span class="underline">over the past seven days</span>.
+										The total activity impairment and total work productivity impairment are calculated based on the responses to those questions.
+										The possible range for the scores is from 0 to 100 percent, with higher scores indicating greater impairment.
+									</p>
+									<p>
+										<ul>
+											<li>
+												Reduction in time or ability to do daily activities means the time or ability for usual activities that one can do, such as work around the house, shopping,
+												child care, exercising, studying, etc. is reduced.
+											</li>
+											<li>
+												Reduction in work productivity means that having days that one is limited in the amount or kind of work one can do, days that one accomplishes less than one
+												would like, or days that one cannot do work as carefully as usual.
+											</li>
+										</ul>
+									</p>
+								<li style="font-weight:bold">Specific problems</li>
+									<p>
+										The DLQI consists of 10 items on various aspects that may impact a patient's life.
+										The responses to the individual items include 0 (not at all affected), 1 (affected a little), 2 (affected a lot), and 3 (very much affected).
+										The 10 issues being asked by the items of the DLQI include:
+										<ol>
+											<li>Itching/pain</li>
+											<li>Embarrassment/self-consciousness</li>
+											<li>Interference with household activities (e.g., shopping, looking after home or gardening)</li>
+											<li>Limitations of clothing choice</li>
+											<li>Interference with social activities (including leisure activities)</li>
+											<li>Difficulties with sports</li>
+											<li>Problems with work/studying</li>
+											<li>Problems with close friends/family (including partner or relatives)</li>
+											<li>Sexual difficulties</li>
+											<li>Inconvenience due to treatment (e.g., making home messy or taking up time)</li>
+										</ol>
+									</p>
+							</ol>
+					</div>
+					<a href="#top"><img src="/images/back_to_top_icon.png"/>Back to Top</a>
+					<br/>
+					<div id="about-screen-sourceData" class="about-screen-sourceData">
+						<h2><a name="SourceData">Source Data [5]</a></h2>
+							<ol>
+								<li>REVEAL (NCT00237887)</li>
+									<p>
+										A phase III, multicenter, randomized, double-blind study enrolled patients with moderate-to-severe psoriasis
+										(Body Surface Area affected [BSA] &ge; 10%, PASI &ge; 12, and Physician's Global Assessment (PGA) &ge; moderate) who were anti-tumor necrosis factor (TNF) na&#239;ve.
+										At baseline, patients were randomized 2:1 to treatment with adalimumab (n=814) or placebo (n=398).
+										Data were used from the first 16 weeks of double-blind treatment.
+									</p>
+								<li>CHAMPION (NCT00235820)</li>
+									<p>
+										A phase III, multicenter, randomized, double-blind study enrolled patients with moderate-to-severe psoriasis
+										(BSA &ge; 10% and PASI &ge; 10) who were anti-tumor necrosis factor (TNF) na&#239;ve and had no previous exposure to methotrexate.
+										At baseline, patients were randomized 2:2:1 to treatment with adalimumab (n=108), methotrexate (n=110) or placebo (n=53).
+										Data from the 16 weeks of double-blind treatment were used.
+									</p>
+								<li>BELIEVE (NCT00574249)</li>
+									<p>
+										A phase IIIb, multicenter, randomized, double-blind study enrolled patients with moderate-to-severe psoriasis
+										(BSA &ge; 10%, PASI &ge; 10, and/or DLQI &ge; 10) who had previously  failed, were intolerant of, or had a contraindication to &ge; 2 systemic therapies.
+										At baseline, patients were randomized 1:1 to treatment with calcipotriol hydrate + betamethasone dipropionate + adalimumab (n=366)
+										or adalimumab + placebo (n=364). Data from the 16 weeks of double-blind treatment were used.
+									</p>
+								<li>PROGRESS (NCT00566722)</li>
+									<p>
+										A phase III, multicenter, open-label study enrolled patients with moderate-to-severe psoriasis
+										(BSA &ge; 10%, PASI &ge; 12, and PGA &ge; moderate) who had a sub-optimal response to etanercept,
+										methotrexate or Narrow band Ultraviolet - B therapy. A total of 152 patients were enrolled,
+										and received a loading dose of adalimumab at baseline followed by treatment with adalimumab every other week.
+										Data from the 16 weeks of treatment were used.
+									</p>
+								<li>M02-528 (NCT00645814)</li>
+									<p>
+										A phase III, multicenter, randomized, double-blind study enrolled patients with moderate-to-severe psoriasis (BSA &ge; 5%).
+										At baseline, patients were randomized 1:1:1 to treatment with adalimumab every other week (n=45), adalimumab weekly (n=50) or placebo (n=52).
+										Data from the first 12 weeks of double-blind treatment were used.
+									</p>
+								<li>M10-255 (NCT00679731)</li>
+									<p>
+										A phase III, multicenter, randomized, double-blind study enrolled subjects with moderate to severe plaque psoriasis (BSA &ge; 10%, PASI &ge; 12, and PGA &ge; moderate).
+										At baseline, subjects were randomized 1:1 to receive ABT-874 (n=154) or weekly methotrexate capsule dosing per titration schedule with oral folate 5 mg weekly (n=163).
+										Data from the first 12 weeks of double-blind treatment were used.
+									</p>
+								<li>M06-890 (NCT00570986)</li>
+									<p>
+										A phase III, multicenter, randomized, double-blind study enrolled subjects with moderate to severe plaque psoriasis
+										(BSA &ge; 10%, PASI &ge; 12, and PGA &ge; moderate) who were candidates for systemic therapy or phototherapy.
+										At baseline, subjects were randomized 2:1 to receive ABT-874 (n=981) or placebo (n=484).
+										Data from the first 12 weeks of double-blind treatment were used.
+									</p>
+								<li>M10-114 (NCT00691964)</li>
+									<p>
+										A Phase III, multicenter, randomized, double-blind, placebo-controlled study enrolled subjects with moderate to severe active plaque psoriasis (BSA &ge; 10%, PASI &ge; 12, and PGA &ge; moderate).
+										At Week 0, subjects were randomized 2:2:1 to receive ABT-874 (n=138), etanercept (n=130) or placebo (n=115). Data from the first 12 weeks of double-blind treatment were used.
+									</p>
+								<li>M10-315 (NCT00710580)</li>
+									<p>
+										A Phase III, multicenter, randomized, double-blind, placebo-controlled study enrolled subjects with moderate to severe active plaque psoriasis (BSA &ge; 10%, PASI &ge; 12, and PGA &ge; moderate).
+										At Week 0, subjects were randomized 2:2:1 to receive ABT-874 (n=139), etanercept (n=139) or placebo (n=72). Data from the first 12 weeks of double-blind treatment were used.
+									</p>
+							</ol>
+					</div>
+					<br />
+                    <div>
+                        <h2><a name="Disclaimer">Disclaimer</a></h2>
+                        <p>
+                            This tool illustrates how itching, pain and psoriasis plaques may affect an individual&#39s quality of life and daily activities in patients with a history of moderate-to-severe psoriasis. The scores generated by this tool on the Psoriasis Area and Severity Index (PASI) are based on the plaques drawn by a user. The scores generated by this tool on the Dermatology Life Quality Index (DLQI), and Work Productivity and Activity Impairment Questionnaire (WPAI) are based on statistical models taking into account age, sex, weight, psoriasis duration, employment status, itching and pain, and the extent and severity of psoriasis plaques drawn on the body surface. They are, hence, approximations but not necessarily always exactly equal to the scores obtained from the direct administration of the measures to a psoriasis patient with the same patient characteristics and skin signs and symptoms.
+                        </p>
+                        <p>
+                            The copyright of the DLQI is held by A.Y. Finlay and the Department of Dermatology, School of Medicine, Cardiff University, UK. The copyright of WPAI was held by Margaret Reilly Associates, Inc. The copyright of Psoriasis Body Atlas is held by Abbott Laboratories.
+                        </p>
+                    </div>
+					<br/>
+					<div>
+					<a href="#top"><img src="/images/back_to_top_icon.png"/>Back to Top</a>
+						<h2><a name="References">References</a></h2>
+							<ol>
+								<li>
+									Feldman SR & Krueger GG. Psoriasis assessment tools in clinical trials. Ann Rheum Dis 2005;64(Suppl II):ii65-8
+								</li>
+								<li>
+									Finlay AG & Khan GH. Dermatology Life Quality Index (DLQI) - a simple practical measure for routine clinical use. Clin Exp Dermatol 1994;19:210-6
+								</li>
+								<li>
+									Lerner D, Amick BC, 3rd, Rogers WH, Malspeis S, Bungay K, Cynn D. The Work Limitations Questionnaire. Med Care 2001;39:72-85
+								</li>
+								<li>
+									Kimball AB, Bao Y, Signorovitch Y, Yang M, Sundaram M, Mulani P. "Quality-of-Life Effects of Psoriasis Skin Symptoms Affecting Different Body Regions"
+									at the European Academy of Dermatology and Venereology 20th Congress, October 20-24, 2011, Lisbon, Portugal
+								</li>
+							</ol>
+					</div>
+
+					<br/>
+					<a href="#top"><img src="/images/back_to_top_icon.png"/>Back to Top</a>
+					<div>
+						<h2><a name="Contact">Contact</a></h2>
+							<p>
+								For more information about the tool and related methods, please contact:
+								<br/><br/>
+								Murali Sundaram<br/>
+								Senior Manager<br/>
+								Global Health Economics and Outcomes Research<br/>
+								Abbott Laboratories<br/>
+								Email: <a href="mailto:murali.sundaram@abbott.com">murali.sundaram@abbott.com</a><br/>
+								Office +1 (847) 937-1215<br/>
+								Fax +1 (847) 937-1992<br/>
+							</p>
+					</div>
+					<a href="#top"><img src="/images/back_to_top_icon.png"/>Back to Top</a>
+			</div>
+
+			</div>
+
+         <div id="help-screen">
+         <div id="help-screen-container" class="about-screen-container">
+				<div id="help-screen-title"><h1><a name="topHelp">How to use Psoriasis Body Atlas</a></h1></div>
+					<div id="help-screen-contents">
+                        <p>This document provides step-by-step instructions on how to use the Psoriasis Body Atlas tool to understand the extent to which psoriasis signs and symptoms may affect a patient&#39;s life.</p>
+						<ol type="I">
+  							<li><a href="#Step1">Entering General Patient Information</a></li>
+  							<li><a href="#Step2">Entering Psoriasis-Specific Information</a></li>
+  							<li><a href="#Step3">Viewing and Printing Output</a></li>
+  						</ol>
+					</div>
+					<br/>
+					<div id="help-screen-toolDescription">
+						<h2><a name="Step1">I.	Entering General Patient Information</a></h2>
+                            <div class="help-screen-center">
+							<p>
+								The initial screen, as shown below, is for entering general patient information. You may follow the steps below to enter the values.
+							</p>
+							<p>
+									<img src="/images/start_screen.jpg"/>
+                                </p>
+							<p>
+                                <ol type="a">
+                                    <li>Select gender and current employment status by clicking the applicable bubble under <strong>&#34;Gender&#34;</strong> and <strong>&#34;Employed&#34;</strong>.</li>
+                                    <li>Select <strong>Age</strong> and <strong>Psoriasis Duration</strong> either by dragging the slider or typing a value into the field next to the bar.<br /><strong>Please note:</strong> Psoriasis duration should be less than or equal to age.</li>
+                                    <li>Enter weight by first selecting a measurement unit (<strong>kgs</strong> or <strong>lbs</strong>), then either dragging the slider or typing a value into the field next to the bar.</li>
+                                    <li>Click the green <strong>&#34;START&#34;</strong> button to proceed when you are done to access the main screen of the tool.</li>
+                                </ol>
+							</p>
+						</div>
+					</div>
+    				<br/>
+   					<a href="#topHelp"><img src="/images/back_to_top_icon.png"/> Back to Top</a>
+					<div>
+						<h2><a name="Step2">II.	Entering Psoriasis-Specific Information</a></h2>
+                        <div class="help-screen-center">
+                            <p>The main screen of the tool, as shown below for a male, consists of three panels, from left to right:</p>
+                               <p>
+							<ul>
+								<li>Selection of severity levels for psoriasis plaques, itching and pain;</li>
+								<li>A body outline to draw psoriasis plaques on;</li>
+								<li>The Patient Information that you have initially entered and instructions on how to add psoriasis plaques to the body outline.</li>
+							</ul>
+						</p>
+   					    <p>You may follow the instructions in the panel under the text &#34;Follow these steps to use Psoriasis Body Atlas&#34; on the right panel.</p>
+						<img src="/images/main_screen.jpg" />
+
+                        </div>
+                        <div class="help-screen-center">
+                        <p>
+                            <ol type="a">
+                                <li>Following the instructions in Step 1 (&#34;<strong>ADD PSORIASIS PLAQUES</strong>&#34;) on the right panel, determine where a patient has psoriasis plaques. Click a plaque and then move the cursor to the body outline to draw plaques in the area on the body outline with a corresponding plaque severity level.
+                                    <p>You may use the pictures below as a reference to determine the plaques severity level in a body area of a patient, and how they correspond to the plaque images in the left panel of the Psoriasis Body Atlas.</p>
+                                    <img src="/images/severity_level_combo.jpg" />
+                                </li>
+                                <li>You may click once to add a single plaque on the body outline, or click and drag to add multiple plaques.</li>
+                                <li>
+                                    The drawn plaques on the body outline can be modified by using the &#34;<strong>+</strong>&#34;, &#34;<strong>&ndash;</strong>&#34; and &#34;<strong>ERASE</strong>&#34; tools, or by drawing over them with a different plaque severity selection.
+                                    <ol type="i">
+                                        <li>
+                                            &#34;<strong>&#43;</strong>&#34; tool: Click the &#34;<strong>&#43;</strong>&#34; sign, and move the cursor to the drawn plaques which you want to increase the severity level of.
+                                            <ul>
+                                                <li>Using the &#34;<strong>&#43;</strong>&#34; tool to modify the drawn plaques will increase each plaque one severity level from each single click.</li>
+                                                <li>Using the &#34;<strong>&#43;</strong>&#34; tool to draw on skin with no preexisting plaques will load a plaque of severity level 1.</li>
+                                                <li>Using the &#34;<strong>&#43;</strong>&#34; tool on the most severe plaques (i.e., level 6) will lead to no change.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            &#34;<strong>&ndash;</strong>&#34; tool: Click the &#34;<strong>&ndash;</strong>&#34; sign, and move the cursor to the drawn plaques which you want to decrease the severity level of.
+                                            <ul>
+                                                <li>Using the &#34;<strong>&ndash;</strong>&#34; tool to modify the drawn plaques will decrease each plaque one severity level from each single click.</li>
+                                                <li>Using the &#34;<strong>&ndash;</strong>&#34; tool on plaques of severity level 1 will eliminate them entirely.</li>
+                                            </ul>
+
+                                        </li>
+                                        <li>&#34;<strong>ERASE</strong>&#34; tool: Clicking the &#34;<strong>ERASE</strong>&#34; button and drawing on the body will eliminate any previously drawn plaques, regardless of severity level. Click and drag to eliminate multiple plaques.</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    When you have entered the plaques on the body outline, click the &#34;<strong>Done</strong>&#34; button under Step 1 in the blue box. This will allow you move onto Step 2 (&#34SET ITCHING & PAIN LEVELS&#34).
+                                    <ol type="i">
+                                        <li>The Psoriasis Body Atlas allows you to choose an &#34;<strong>Expected</strong>&#34; severity level or use a &#34;<strong>Custom</strong>&#34; for itching and pain levels. The &#34;<strong>Expected</strong>&#34; function produces a patient&#39;s likely levels of itching and pain based on the plaques drawn onto the body outline and the information entered in <a href="#Step1">I. Entering General Patient Information</a>. These values range on a scale from 1 (no itching/pain) to 10 (worst itching/pain one can imagine).
+                                            <ul>
+                                                <li>Itching is manifested on the body outline by small grey dots surrounding the body; the greater the density of the dots, the higher the level of itching.</li>
+                                                <li>Pain is manifested on the body outline by a red outline surrounding the body; the deeper the glow of the outline, the higher the level of pain.</li>
+                                            </ul>
+                                        </li>
+                                        <li>You can always modify the levels of itching and pain by dragging the slider or typing a whole number into the field above the bar to customize.</li>
+                                    </ol>
+                                </li>
+                                <li>Once itching and pain values have been modified (or verified, if using &#34;<strong>Expected</strong>&#34;), click the &#34;<strong>Done</strong>&#34; button under Step 2 on the right panel. The blue boxes will disappear and be replaced by the tool-generated likely life impacts of psoriasis signs and symptoms on a patient.</li>
+                                <li>You can always modify the plaque area and severity level that you have drawn and modify the levels of itching and pain even after pressing &#34;<strong>Done</strong>&#34;.</li>
+                                <li>If at any point you wish to modify the initial patient information, you may click the &#34;<strong>EDIT</strong>&#34; button at the top right of the &#34;<strong>PATIENT INFORMATION</strong>&#34; section to return to the initial screen to modify General Patient Information in <a href="#Step1">I. Entering General Patient Information</a>.
+                                <br /><strong>Please note:</strong> Changing gender will clear any information entered in the main tool screen.
+                                </li>
+                                <li>If at any point you wish to undo the plaques and the itching and pain levels, you may click the &#34;<strong>CLEAR</strong>&#34; button at the bottom of the body outline to start redrawing the plaques and verify the itching and pain levels.</li>
+                            </ol>
+                        </p>
+                        </div>
+                     	<br/>
+                        <!--
+						<div id="help-screen-psoriasis-severity" class="about-screen-psoriasis-severity">
+							<p>Severity Level 1</p>
+								<div id="help-screen-psoriasis-severity1-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="images/level1.jpg"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity1-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="images/arrow.png"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity1-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="images/severity_level1_button.png"></img>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 2</p>
+								<div id="help-screen-psoriasis-severity2-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="images/level2.jpg"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity2-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="images/arrow.png"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity2-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="images/severity_level2_button.png"></img>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 3</p>
+								<div id="help-screen-psoriasis-severity3-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="images/level3.jpg"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity3-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="images/arrow.png"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity3-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="images/severity_level3_button.png"></img>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 4</p>
+								<div id="help-screen-psoriasis-severity4-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="images/level4.jpg"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity4-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="images/arrow.png"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity4-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="images/severity_level4_button.png"></img>
+								</div>
+							<br/>
+							<br/>
+							<br/>
+
+							<p>Severity Level 5</p>
+								<div id="help-screen-psoriasis-severity5-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="images/level5.jpg"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity5-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="images/arrow.png"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity5-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="images/severity_level5_button.png"></img>
+								</div>
+
+							<p>Severity Level 6</p>
+								<div id="help-screen-psoriasis-severity6-picture" class="about-screen-psoriasis-severity1-picture">
+									<img src="images/level6.jpg"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity6-arrow" class="about-screen-psoriasis-severity-arrow">
+									<img src="images/arrow.png"></img>
+								</div>
+								<div id="help-screen-psoriasis-severity6-plaque" class="about-screen-psoriasis-severity-plaque">
+									<img src="images/severity_level5_button.png"></img>
+								</div>
+						</div>
+					</div>
+                    -->
+					<a href="#topHelp"><img src="/images/back_to_top_icon.png"/> Back to Top</a>
+					<br/>
+					<div id="help-screen-explanationOfOutputs">
+						<h2><a name="Step3">III.	Viewing and Printing Output</a></h2>
+							<div class="help-screen-center">
+                                <p>The Psoriasis Body Atlas produces the likely life impact that psoriasis signs and symptoms may have on a patient with similar signs and symptoms as those drawn on the body outline, adjusted by a patient&#39;s age, sex, psoriasis duration, weight, and employment status.</p>
+                                <img src="/images/output_screen.jpg" />
+                                <ol type="a">
+                                    <li>As shown in the figure above, you can view two tabs of outcomes, labeled with &#34;<strong>SPECIFIC PROBLEMS</strong>&#34; and &#34;<strong>OVERALL IMPACT</strong>&#34;.
+                                        <ol type="i">
+                                           <li>On the &#34;<strong>SPECIFIC PROBLEMS</strong>&#34; tab, clicking the &#34;<strong>SORT</strong>&#34; button will allow you to sort these specific problems by the level of impact.</li>
+                                           <li>After &#34;<strong>SORT</strong>&#34; has been clicked, it will be replaced with an &#34;<strong>UNSORT</strong>&#34; button. Clicking this will revert to the original ordering of the problems.</li>
+                                        </ol>
+                                    </li>
+                                    <li>To print the inputs, outputs, and a brief description of the Psoriasis Body Atlas, press the &#34;<strong>PRINT</strong>&#34; button at the top right of the main screen to generate a print-friendly version. Select &#34;Print&#34; function from your web browser to print.</li>
+                                    <li>To read more about what the Psoriasis Body Atlas is, visit the <a id="abtLink" href="#" >ABOUT page</a> by clicking the &#34;<strong>ABOUT</strong>&#34; button at the top right of the main screen.</li>
+                                    <li>To return to the main screen at any point during use of Psoriasis Body Atlas, click the &#34;<strong>HOME</strong>&#34; button at the top right of the screen.</li>
+                                </ol>
+                            </div>
+					</div>
+					<a href="#topHelp"><img src="/images/back_to_top_icon.png"/>Back to Top</a>
+			</div>
+
+			</div>
+
+
+
+		</div>
+		<div id="leftBorder" class="leftBorder">
+			</div>
+
+			<div class="bottomBorder">
+			</div>
+		<div id="console" style="position:absolute;top:0px;float:right;left:1175px;display:none;"></div>
+
+	</form>
+	<div id="print-screen">
+		<div class="print-screen">
+			<div id="topNavigationBar" class="top-navigation-bar">
+				<div id="logo"><img src="/images/logo.png"/></div>
+				<div class="print-page-header"><span>Patient Results</span></div>
+			</div>
+			<hr />
+			<div class="print-header"><span>Patient Information</span></div>
+			<hr />
+			<div class="print-patient-data-section">
+				<div class="print-patient-data-label"><span>Name: <span id="printNameVal" class="print-patient-data-value"></span></span></div>
+				<div class="print-patient-data-label2"><span>Gender: <span id="printGenderVal" class="print-patient-data-value"></span></span></div>
+				<div class="print-patient-data-label2"><span>Employed: <span id="printEmployedVal" class="print-patient-data-value"></span></span></div>
+				<br />
+				<div class="print-patient-data-label"><span>Age: <span id="printAgeVal" class="print-patient-data-value"></span></span></div>
+				<div class="print-patient-data-label2"><span>Weight: <span id="printWeightVal" class="print-patient-data-value"></span></span></div>
+				<div class="print-patient-data-label2"><span>Psoriasis Duration: <span id="printDurationVal" class="print-patient-data-value"></span></span></div>
+			</div>
+			<hr />
+			<div id="print-body-outline"></div>
+			<div id="print-score-outline">
+				<div class="print-header2"><span>Psoriasis signs and symptoms entered:</span></div>
+				<div class="print-score-data-label"><span>Body surface covered (0-100%):</span></div>
+				<div class="print-score-data-value"><span id="printCovergeVal">0</span></div>
+				<div class="print-score-data-label"><span>Approximate PASI score (0-72):</span></div>
+				<div class="print-score-data-value"><span id="printPasiVal">0</span></div>
+				<div class="print-score-data-label"><span>Itching (0 to 10):</span></div>
+				<div class="print-score-data-value2"><span id="printItchVal">0</span></div>
+				<div class="print-score-data-label"><span>Pain (0 to 10):</span></div>
+				<div class="print-score-data-value2"><span id="printPainVal">0</span></div>
+				<br />
+				<div class="print-header2"><span>Expected impacts:</span></div>
+				<div class="print-score-data-label"><span>Quality of life (0-30):</span></div>
+				<div class="print-score-data-value"><span id="printOQLVal">0</span></div>
+				<div class="print-score-data-label"><span>Activity impairment (0 to 100):</span></div>
+				<div class="print-score-data-label3">(Time or ability for usual activities that one can do, such as work around the house, shopping, child care, exercising, studying, etc. is reduced.)</div>
+				<div class="print-score-data-value"><span id="printActivityVal">0</span></div>
+				<div class="print-score-data-label"><span>Work productivity impairment (0 to 100):</span></div>
+				<div class="print-score-data-label3">(Having days that one is limited in the amount or kind of work one can do, days that one accomplishes less than one would like, or days that one cannot do work as carefully as usual.)</div>
+				<div class="print-score-data-value"><span id="printWorkProdVal">0</span></div>
+			</div>
+			<div id="graphContainer">
+				<div class="legendpercents">
+					<div class="graphshift">Psoriasis patients with the signs and symptoms you have entered are affected by these problems...</div>
+					<div class="legendkeys">
+						<div class="key">
+							<img class="graphkey" src="/images/legend_key_low.png" />
+							<span>A little</span>
+						</div>
+						<div class="key">
+							<img class="graphkey" src="/images/legend_key_medium.png" />
+							<span>A lot</span>
+						</div>
+						<div class="key">
+							<img class="graphkey" src="/images/legend_key_high.png" />
+							<span>Very much</span>
+						</div>
+					</div>
+					<div class="lowpercent">0%</div>
+					<div class="highpercent">100%</div>
+				</div>
+				<hr />
+				<div id="printGraphs"></div>
+				<br />
+				<div id="topNavigationBar" class="top-navigation-bar2">
+					<div id="logo"><img src="/images/logo.png"/></div>
+				</div>
+				<hr />
+				<div class="print-header"><span>About the Psoriasis Body Atlas</span></div>
+
+				<div id="about-tool-content">
+					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+				<!-- 	<h2>What does this tool do?</h2>
+
+					<p>
+						This tool illustrates how itching, pain and psoriasis plaques may affect an individual's quality of life and daily activities in patients with a history of moderate-to-severe psoriasis.
+						After indicating a patient's age, sex, weight, psoriasis duration and employment status, the extent and severity of psoriasis plaques are drawn directly on the body surface by painting the plaques over the body outline.
+						Levels of itching and pain are entered using sliders to indicate none to worst it can be (from a value of 0 to 10).
+					</p>
+					<p>
+						Based on these inputs, the tool displays projected psoriasis impact on quality of life, activity, and work productivity (for employed patients).
+						The projections are based on data from over 4,000 patients receiving treatment for moderate to severe psoriasis in clinical trials.
+					</p>
+					<p>
+						Provided below are descriptions of the patient-reported outcome surveys used for assisting the impact(i.e., the <span style="font-weight:bold;">Dermatology Life Quality Index</span> (DLQI)
+						and the <span style="font-weight:bold;">Work Productivity and Activity Impairment</span> (WPAI)). More detailed description of the tool can be found on teh "About the Psoriasis Body Atlas Tool" page.
+					</p>
+					<br/>
+
+					<h3 style="text-decoration: underline;font-weight:normal;"><span style="font-weight:bold;">Dermatology Life Quality Index</span> (DLQI)</h3>
+						<p>
+							DLQI is an established survey questionnaire assessing symptoms and impact of skin diseases "<span class="underline">over the last week</span>".
+							It consists of 10 items on various aspects that potentially affect/impact a patient's life. The total DLQI score is the sum of the responses to
+							the individual items, ranging from 0 (least impairment) to 30 (greatest impairment). Below are the 10 issues being asked in DLQI.
+							The responses to the items include 0 (not at all affected), 1 (affected a little), 2 (affected a lot), and 3 (very much affected).
+						</p>
+										<ol>
+											<li>Itching/pain</li>
+											<li>Embarrassment/self-consciousness</li>
+											<li>Interference with household activities (e.g., shopping, looking after home or gardening)</li>
+											<li>Limitations of clothing choice</li>
+											<li>Interference with social activities (including leisure activities)</li>
+											<li>Difficulties with sports</li>
+											<li>Problems with work/studying</li>
+											<li>Problems with close friends/family (including partner or relatives)</li>
+											<li>Sexual difficulties</li>
+											<li>Inconvenience due to treatment (e.g., making home messy or taking up time)</li>
+										</ol>
+										<br/>
+
+					<h3 style="text-decoration: underline;font-weight:normal;"><span style="font-weight:bold;">Work Productivity and Activity Impairment</span> (WPAI)</h3>
+					<p>
+										WPAI was designed to measure the amount of absenteeism, presenteeism, and daily activity impairment attributable
+										to either general health (WPAI:GH) or to a specific health problem (i.e., psoriasis in this case, WPAI:Ps).
+										The WPAI:Ps consists of six questions regarding current employment status, hours missed from routine work due to psoriasis or for other reasons,
+										the number of hours actually worked, and the degree to which the problem affected productivity and affected regular activities <span class="underline">over the past seven days</span>.
+										The total activity impairment and total work productivity impairment are calculated based on the responses to those questions.
+										The possible range for the scores is from 0 to 100 percent, with higher scores indicating greater impairment.
+									</p>
+
+										<ul>
+											<li>
+												Reduction in time or ability to do daily activities means the time or ability for usual activities that one can do, such as work aroudn teh house, shopping,
+												child care, exercising, studying, etc. is reduced.
+											</li>
+											<li>
+												Reduction in work productivity means that having days that one is limited in the amount or kind of work one can do, days that one accomoplishes less than one
+												would like, or days that one cannot do work as carefully as usual.
+											</li>
+										</ul>
+										<br/>
+					<h2>References</h2>
+					<ol>
+								<li>
+									Feldman SR & Krueger GG. Psoriasis assessment tools in clinical trials. Ann Rheum Dis 2005;64(Suppl II):ii65-8
+								</li>
+								<li>
+									Finlay AG & Khan GH. Dermatology Life Quality Index (DLQI) - a simple practical measure for routine clinical use. Clin Exp Dermatol 1994;19:210-6
+								</li>
+								<li>
+									Lerner D, Amick BC, 3rd, Rogers WH, Malspeis S, Bungay K, Cynn D. The Work Limitations Questionnaire. Med Care 2001;39:72-85
+								</li>
+								<li>
+									Kimball AB, Bao Y, Signorovitch Y, Yang M, Sundaram M, Mulani P. "Quality-of-Life Effects of Psoriasis Skin Symptoms Affecting Different Body Regions"
+									at the European Academy of Dermatology and Venereology 20th Congress, October 20-24, 2011, Lisbon, Portugal
+								</li>
+							</ol>-->
+
+
+
+
+
+			</div>
+					<div id="print-about-page">
+					<h2>What does this tool do?</h2>
+
+					<p>
+						This tool illustrates how itching, pain and psoriasis plaques may affect an individual's quality of life and daily activities in patients with a history of moderate-to-severe psoriasis.
+						After indicating a patient's age, sex, weight, psoriasis duration and employment status, the extent and severity of psoriasis plaques are drawn directly on the body surface by painting the plaques over the body outline.
+						Levels of itching and pain are entered using sliders to indicate none to worst it can be (from a value of 0 to 10).
+					</p>
+					<p>
+						Based on these inputs, the tool displays projected psoriasis impact on quality of life, activity, and work productivity (for employed patients).
+						The projections are based on data from over 4,000 patients receiving treatment for moderate to severe psoriasis in clinical trials.
+					</p>
+					<p>
+						Provided below are descriptions of the patient-reported outcome surveys used for assisting the impact(i.e., the <span style="font-weight:bold;">Dermatology Life Quality Index</span> (DLQI)
+						and the <span style="font-weight:bold;">Work Productivity and Activity Impairment</span> (WPAI)). More detailed description of the tool can be found on teh "About the Psoriasis Body Atlas Tool" page.
+					</p>
+					<br/>
+
+					<h3 style="text-decoration: underline;font-weight:normal;"><span style="font-weight:bold;">Dermatology Life Quality Index</span> (DLQI)</h3>
+						<p>
+							DLQI is an established survey questionnaire assessing symptoms and impact of skin diseases "<span class="underline">over the last week</span>".
+							It consists of 10 items on various aspects that potentially affect/impact a patient's life. The total DLQI score is the sum of the responses to
+							the individual items, ranging from 0 (least impairment) to 30 (greatest impairment). Below are the 10 issues being asked in DLQI.
+							The responses to the items include 0 (not at all affected), 1 (affected a little), 2 (affected a lot), and 3 (very much affected).
+						</p>
+										<ol>
+											<li>Itching/pain</li>
+											<li>Embarrassment/self-consciousness</li>
+											<li>Interference with household activities (e.g., shopping, looking after home or gardening)</li>
+											<li>Limitations of clothing choice</li>
+											<li>Interference with social activities (including leisure activities)</li>
+											<li>Difficulties with sports</li>
+											<li>Problems with work/studying</li>
+											<li>Problems with close friends/family (including partner or relatives)</li>
+											<li>Sexual difficulties</li>
+											<li>Inconvenience due to treatment (e.g., making home messy or taking up time)</li>
+										</ol>
+										<br/>
+
+					<h3 style="text-decoration: underline;font-weight:normal;"><span style="font-weight:bold;">Work Productivity and Activity Impairment</span> (WPAI)</h3>
+					<p>
+										WPAI was designed to measure the amount of absenteeism, presenteeism, and daily activity impairment attributable
+										to either general health (WPAI:GH) or to a specific health problem (i.e., psoriasis in this case, WPAI:Ps).
+										The WPAI:Ps consists of six questions regarding current employment status, hours missed from routine work due to psoriasis or for other reasons,
+										the number of hours actually worked, and the degree to which the problem affected productivity and affected regular activities <span class="underline">over the past seven days</span>.
+										The total activity impairment and total work productivity impairment are calculated based on the responses to those questions.
+										The possible range for the scores is from 0 to 100 percent, with higher scores indicating greater impairment.
+									</p>
+
+										<ul>
+											<li>
+												Reduction in time or ability to do daily activities means the time or ability for usual activities that one can do, such as work aroudn teh house, shopping,
+												child care, exercising, studying, etc. is reduced.
+											</li>
+											<li>
+												Reduction in work productivity means that having days that one is limited in the amount or kind of work one can do, days that one accomoplishes less than one
+												would like, or days that one cannot do work as carefully as usual.
+											</li>
+										</ul>
+										<br/>
+					<h2>References</h2>
+					<ol>
+								<li>
+									Feldman SR & Krueger GG. Psoriasis assessment tools in clinical trials. Ann Rheum Dis 2005;64(Suppl II):ii65-8
+								</li>
+								<li>
+									Finlay AG & Khan GH. Dermatology Life Quality Index (DLQI) - a simple practical measure for routine clinical use. Clin Exp Dermatol 1994;19:210-6
+								</li>
+								<li>
+									Lerner D, Amick BC, 3rd, Rogers WH, Malspeis S, Bungay K, Cynn D. The Work Limitations Questionnaire. Med Care 2001;39:72-85
+								</li>
+								<li>
+									Kimball AB, Bao Y, Signorovitch Y, Yang M, Sundaram M, Mulani P. "Quality-of-Life Effects of Psoriasis Skin Symptoms Affecting Different Body Regions"
+									at the European Academy of Dermatology and Venereology 20th Congress, October 20-24, 2011, Lisbon, Portugal
+								</li>
+							</ol>
+					</div>
+				<hr />
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+
+<script type="text/template" id="individual-dlqigraph-tmpl">
+		<div class="barname"><%= name %></div>
+		<div class="stacks">
+			<img class="highcolor bar" src="/images/dlqi_graph_high.png" style="width:<%= highPercent %>%" title="<%= Math.round(highPercent) %>%"/>
+			<img class="midcolor bar" src="/images/dlqi_graph_medium.png" style="width:<%= midPercent %>%" title="<%= Math.round(midPercent) %>%"/>
+			<img class="lowcolor bar" src="/images/dlqi_graph_low.png" style="width:<%= lowPercent %>%" title="<%= Math.round(lowPercent) %>%"/>
+		</div>
+</script>
+
+
+
+<script type="text/template" id="test-ground-tmpl">
+
+<input type="button" id="test-button" value="recalculate" />
+<input type="text" id="test-text" value="10%" />
+</script>
+
+<script type="text/template" id="aggregate-dlqigraph-tmpl">
+	<p class="dlqiinfotext">Psoriasis patients with the signs and symptoms you have entered are likely to experience...</p>
+    <div>
+ 	 <div id="dlqiSummary" class="dlqisummary">
+        <div class="dlqiResultText"><span id="suffixstart" class="dlqisummarysuffix"></span><span><%= dlqieffect %></span> <span class="dlqisummarysuffix">on quality of life </span></div>
+        <div id="quality-bubble-container" class="quality-info-bubble-container info-bubble-container">
+	 	<div style="position: relative"><div id="quality-bubble" style="display:none;" class="quality-info-bubble-text info-bubble-text" >Quality of life is specified as the symptoms of the skin disease and the perceived impact on various life aspects (e.g., embarrassment, interference with social activities etc.) associated with psoriasis over the course of one&#39;s diagnosis with the disease.</div></div>
+	 	<div id="quality-bubble-icon" class="info-bubble-icon-inactive"></div>
+        </div>
+    </div>
+    <input type="hidden" id="hiddenMarkerBubble" value="<%= dlqibubbleposition %>" />
+    <div id="dlqiMarkerScore" style="display:none;margin-left:<%= dlqibubbleposition %>px;" >The expected quality of life score is <%= dlqivalue%> on a scale of 0 (best) to 30 (worst).</div>
+     <div id="dlqimarker" style="margin-left:<%= dlqiposition %>px;">
+     </div>
+	 <div id="dlqiScaleMarker" style="margin-left:<%= dlqiscalemarkerpostion %>px;width:<%= dlqimarkerwidth %>px;" class="dlqiScaleMarker" />
+     <div class="dlqiscale"></div>
+    </div>
+</script>
+
+<script type="text/template" id="qol-graph-tmpl">
+ 	 <p class="chartText">A <span class = "pDisplay"><%= displayedPercentage %>%</span> reduction in <%= name %></p>
+	 <div id="<%= cssBubbleContainerId %>" class="info-bubble-container">
+	 	<div style="position: relative"><div id="<%= cssBubbleTextId %>" class="info-bubble-text"><%= infoText %></div></div>
+	 	<div id="<%= cssBubbleIconId %>" class="info-bubble-icon-inactive"></div>
+	 </div>
+	 <div class = "barchart">
+        <div class = "graph">
+         <div class="chartcolor bar" style="width:<%= percentage %>%"></div>
+        </div>
+     </div>
+</script>
+
+<script type="text/template" id="console-tmpl">
+
+<table rules="rows">
+<tr><td><p>Age </td><td> <%= Age %><p></td></tr>
+<tr><td><p>Female </td><td> <%= Female %><p></td></tr>
+<tr><td><p>Weight </td><td> <%= Weight %><p></td></tr>
+<tr><td><p>Pruritis </td><td> <%= Pruritis %><p></td></tr>
+<tr><td><p>Pain </td><td> <%= Pain %><p></td></tr>
+<tr><td><p>Duration </td><td> <%= PsoriasisDuration %><p></td></tr>
+<tr><td><p>HeadScore </td><td> <%= HeadScore %><p></td></tr>
+<tr><td><p>HeadArea </td><td> <%= HeadArea %><p></td></tr>
+<tr><td><p>UpperScore </td><td> <%= UpperLimbScore %><p></td></tr>
+<tr><td><p>UpperArea </td><td> <%= UpperLimbArea %><p></td></tr>
+<tr><td><p>TrunkScore </td><td> <%= TrunkScore %><p></td></tr>
+<tr><td><p>TrunkArea </td><td> <%= TrunkArea %><p></td></tr>
+<tr><td><p>LowerScore </td><td> <%= LowerLimbScore %><p></td></tr>
+<tr><td><p>LowerArea </td><td> <%= LowerLimbArea %><p></td></tr>
+<tr><td><p>PASIScore </td><td> <%= pASIScore %><p></td></tr>
+<tr><td><p>TotalCoverage </td><td> <%= coverage %><p></td></tr>
+<table>
+<br />
+<table rules="rows">
+<tr><td><p>Embarrassment VERY MUCH</td><td> <%= EVeryMuch %><p></td></tr>
+<tr><td><p>Embarrassment ALOT </td><td> <%= EAlot %><p></td></tr>
+<tr><td><p>Embarrassment A LITTLE </td><td> <%= EALittle %><p></td></tr>
+<tr><td><p>Itching/Pain VERY MUCH</td><td> <%= EVeryMuch2 %><p></td></tr>
+<tr><td><p>Itching/Pain ALOT </td><td> <%= EAlot2 %><p></td></tr>
+<tr><td><p>Itching/Pain A LITTLE </td><td> <%= EALittle2 %><p></td></tr>
+<tr><td><p>SexualDifficulties VERY MUCH</td><td> <%= EVeryMuch3 %><p></td></tr>
+<tr><td><p>SexualDifficulties ALOT </td><td> <%= EAlot3 %><p></td></tr>
+<tr><td><p>SexualDifficulties A LITTLE </td><td> <%= EALittle3 %><p></td></tr>
+<tr><td><p>SocialActivities VERY MUCH</td><td> <%= EVeryMuch4 %><p></td></tr>
+<tr><td><p>SocialActivities ALOT </td><td> <%= EAlot4 %><p></td></tr>
+<tr><td><p>SocialActivities A LITTLE </td><td> <%= EALittle4 %><p></td></tr>
+<tr><td><p>Work/Study VERY MUCH</td><td> <%= EVeryMuch5 %><p></td></tr>
+<tr><td><p>Work/Study ALOT </td><td> <%= EAlot5 %><p></td></tr>
+<tr><td><p>Work/Study A LITTLE </td><td> <%= EALittle5 %><p></td></tr>
+<tr><td><p>Sports VERY MUCH</td><td> <%= EVeryMuch6 %><p></td></tr>
+<tr><td><p>Sports ALOT </td><td> <%= EAlot6 %><p></td></tr>
+<tr><td><p>Sports A LITTLE </td><td> <%= EALittle6 %><p></td></tr>
+<tr><td><p>Treatment VERY MUCH</td><td> <%= EVeryMuch7 %><p></td></tr>
+<tr><td><p>Treatment ALOT </td><td> <%= EAlot7 %><p></td></tr>
+<tr><td><p>Treatment A LITTLE </td><td> <%= EALittle7 %><p></td></tr>
+<tr><td><p>Clothing VERY MUCH</td><td> <%= EVeryMuch8 %><p></td></tr>
+<tr><td><p>Clothing ALOT </td><td> <%= EAlot8 %><p></td></tr>
+<tr><td><p>Clothing A LITTLE </td><td> <%= EALittle8 %><p></td></tr>
+<tr><td><p>HouseholdActivities VERY MUCH</td><td> <%= EVeryMuch9 %><p></td></tr>
+<tr><td><p>HouseholdActivities ALOT </td><td> <%= EAlot9 %><p></td></tr>
+<tr><td><p>HouseholdActivities A LITTLE </td><td> <%= EALittle9 %><p></td></tr>
+<tr><td><p>Friends/Family VERY MUCH</td><td> <%= EVeryMuch10 %><p></td></tr>
+<tr><td><p>Friends/Family ALOT </td><td> <%= EAlot10 %><p></td></tr>
+<tr><td><p>Friends/Family A LITTLE </td><td> <%= EALittle10 %><p></td></tr>
+<table>
+
+
+</script>
+
+<script src="/js/lib/jquery.min.js"></script>
+<script src="/js/lib/jquery-ui-1.8.14.custom.min.js"></script>
+<script src="/js/lib/underscore-min.js"></script>
+<script src="/js/lib/backbone-src.js"></script>
+<script src="/js/lib/backbone-logger.min.js"></script>
+<script src="/js/lib/jquery.dimensions.min.js"></script>
+<script src="/js/lib/jquery.tooltip.min.js"></script>
+<script src="/js/src/application.js"></script>
+<script src="/js/src/points.js"></script>
+<script src="/js/src/views.js"></script>
+<script src="/js/src/utils.js"></script>
+<script src="/js/src/dqli.js"></script>
+<script src="/js/src/models.js"></script>
+
+<script>
+	//main bootstrap method
+
+	$(function() {
+		window._bodyAtlas_ = new BodyAtlas.UI.AppView();
+
+	});
+</script>
+
+</html>

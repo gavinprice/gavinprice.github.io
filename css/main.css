@@ -1,0 +1,2480 @@
+.tooltip {
+	display:none;
+	background: transparent url(../images/DLQIArrow2.png) no-repeat;
+	font-size:9px;
+	height: 25.5px;
+	width: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+	margin-top: 8.5px;
+	padding-left: 6px;
+}
+
+.ui-widget {
+	font: 12px Sans-serif;
+}
+
+#print-screen {
+	display: none;
+}
+
+.shell #about-screen {
+	float: right;
+	background: #FFFFFF;
+	width: 970px;
+	display: none;
+}
+
+.shell #help-screen {
+	float: right;
+	background: #FFFFFF;
+	width: 970px;
+	display: none;
+}
+
+
+.home-nav-option {
+	background: transparent url(../images/home_navigation.png) no-repeat;
+	width: 58px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 178px;
+	z-index: 30;
+}
+
+.home-nav-option:hover {
+	background: transparent url(../images/home_navigation_selected.png) no-repeat;
+}
+
+.home-nav-option-selected {
+	background: transparent url(../images/home_navigation_selected.png) no-repeat;
+	width: 58px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 178px;
+	z-index: 30;
+}
+
+
+.about-nav-option {
+	background: transparent url(../images/about_navigation.png) no-repeat;
+	width: 56px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -117px;
+	z-index: 30;
+}
+
+.about-nav-option:hover {
+	background: transparent url(../images/about_navigation_selected.png) no-repeat;
+}
+
+.about-nav-option-selected {
+	background: transparent url(../images/about_navigation_selected.png) no-repeat;
+	width: 56px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -117px;
+	z-index: 30;
+}
+
+.print-nav-option {
+	background: transparent url(../images/print_navigation.png) no-repeat;
+	width: 58px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -177px;
+	z-index: 30;
+}
+
+.print-nav-option:hover {
+	background: transparent url(../images/print_navigation_selected.png) no-repeat !important;
+}
+
+.print-nav-option-selected {
+	background: transparent url(../images/print_navigation_selected.png) no-repeat;
+	width: 58px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -177px;
+	z-index: 30;
+}
+
+#print-nav-option {
+	background: transparent url(../images/print_navigation.png) no-repeat;
+	width: 57px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -177px;
+}
+
+.help-nav-option {
+	background: transparent url(../images/help_navigation.png) no-repeat;
+	width: 56px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -235px;
+	z-index: 30;
+	cursor:pointer;
+}
+
+.help-nav-option:hover {
+	background: transparent url(../images/help_navigation_selected.png) no-repeat;
+}
+
+.help-nav-option-selected {
+	background: transparent url(../images/help_navigation_selected.png) no-repeat;
+	width: 56px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -235px;
+	z-index: 30;
+}
+
+#pain {
+	background: transparent url(../images/pallettebar_pain_label.png) no-repeat;
+	width: 40px;
+	height: 21px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+#itch {
+	background: transparent url(../images/pallettebar_itch_label.png) no-repeat;
+	width: 40px;
+	height: 21px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+.slider-area-itch-pain {
+	width: 55px;
+	float: left;
+	display: inline-block;
+	padding: 10px 35px 0 0;
+	margin-left:14px;
+}
+
+.slider-bar-itch-pain {
+	float: left;
+	width: 81px;
+}
+
+.itch_slider {
+	background: transparent url(../images/itch_slider_bar.png) no-repeat !important;
+	border-radius: 0px 0px 0px 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	border: none !important;
+	padding-left: 5px !important;
+	height: 19px !important;
+}
+
+.itch_slider a {
+	background: url(../images/itch_pain_slider_handle.png) no-repeat top center !important;
+	border-radius: 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	width: 13px !important;
+	height: 33px !important;
+	margin: -8px 0 0 0;
+}
+
+.pain_slider {
+	background: transparent url(../images/pain_slider_bar.png) no-repeat !important;
+	border-radius: 0px 0px 0px 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	border: none !important;
+	padding-left: 5px !important;
+	height: 19px !important;
+}
+
+.pain_slider a {
+	background: url(../images/itch_pain_slider_handle.png) no-repeat top center !important;
+	border-radius: 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	width: 13px !important;
+	height: 33px !important;
+	margin: -8px 0 0 0;
+}
+
+.slider-text-area-itch-pain {
+	float: left;
+	width: 30px;
+	font-size: 13px;
+	color: #235C6F;
+	font-weight: bold;
+	margin-left:4px;
+}
+
+#pallette-bar {
+	height: 560px;
+	width: 111px;
+	margin-left: 0px;
+	position: absolute;
+}
+
+#pallette-bar-title {
+	background: url(../images/pallettebar_header_label.png) no-repeat;
+	height: 26px;
+	width: 84px;
+	margin-top: 15px;
+	margin-left:13px;
+	float: left;
+}
+
+#severity-plaque-level1 {
+	height: 31px;
+	width: 44px;
+	margin-left: 32px;
+	float: left;
+	margin-top: 10px;
+}
+
+.severity-plaque-level1 {
+	background: url(../images/severity_level1_button.png) no-repeat;
+}
+
+.severity-plaque-level1_selected {
+	background: url(../images/severity_level1_button_selected.png) no-repeat;
+}
+
+#severity-plaque-level2 {
+	height: 31px;
+	width: 44px;
+	margin-left: 32px;
+	float: left;
+	margin-top: 1px;
+}
+
+.severity-plaque-level2 {
+	background: url(../images/severity_level2_button.png) no-repeat;
+}
+
+.severity-plaque-level2_selected {
+	background: url(../images/severity_level2_button_selected.png) no-repeat;
+}
+
+#severity-plaque-level3 {
+	height: 31px;
+	width: 44px;
+	margin-left: 32px;
+	float: left;
+	margin-top: 1px;
+}
+
+.severity-plaque-level3 {
+	background: url(../images/severity_level3_button.png) no-repeat;
+}
+
+.severity-plaque-level3_selected {
+	background: url(../images/severity_level3_button_selected.png) no-repeat;
+}
+
+#severity-plaque-level4 {
+	height: 31px;
+	width: 44px;
+	margin-left: 32px;
+	float: left;
+	margin-top: 1px;
+}
+
+.severity-plaque-level4 {
+	background: url(../images/severity_level4_button.png) no-repeat;
+}
+
+.severity-plaque-level4_selected {
+	background: url(../images/severity_level4_button_selected.png) no-repeat;
+}
+
+#severity-plaque-level5 {
+	height: 31px;
+	width: 44px;
+	margin-left: 32px;
+	float: left;
+	margin-top: 1px;
+}
+
+.severity-plaque-level5 {
+	background: url(../images/severity_level5_button.png) no-repeat;
+}
+
+.severity-plaque-level5_selected {
+	background: url(../images/severity_level5_button_selected.png) no-repeat;
+}
+
+#severity-plaque-level6 {
+	height: 31px;
+	width: 44px;
+	margin-left: 32px;
+	float: left;
+	margin-top: 1px;
+}
+
+.severity-plaque-level6 {
+	background: url(../images/severity_level6_button.png) no-repeat;
+}
+
+.severity-plaque-level6_selected {
+	background: url(../images/severity_level6_button_selected.png) no-repeat;
+}
+
+#severity-add-option {
+	height: 31px;
+	width: 44px;
+	margin-left: 11px;
+	float: left;
+	margin-top: 1px;
+}
+
+.severity-add-option {
+	background: url(../images/severity_add_button.png) no-repeat;
+}
+
+.severity-add-option_selected {
+	background: url(../images/severity_add_button_selected.png) no-repeat;
+}
+
+#severity-reduce-option {
+	height: 31px;
+	width: 44px;
+	margin-left: 0px;
+	float: left;
+	margin-top: 1px;
+}
+
+.severity-reduce-option {
+	background: url(../images/severity_reduce_button.png) no-repeat;
+}
+
+.severity-reduce-option_selected {
+	background: url(../images/severity_reduce_button_selected.png) no-repeat;
+}
+
+#severity-remove-option {
+	height: 31px;
+	width: 44px;
+	margin-left: 32px;
+	float: left;
+	margin-top: 1px;
+	margin-bottom:25px;
+}
+
+.severity-remove-option {
+	background: url(../images/severity_remove_button.png) no-repeat;
+}
+
+.severity-remove-option_selected {
+	background: url(../images/severity_remove_button_selected.png) no-repeat;
+}
+
+#patient-data-window {
+	background: url(../images/patient_data_window.png) no-repeat;
+	width: 660px;
+	height: 480px;
+	z-index: 30;
+	margin-left: 154px;
+	margin-top: 40px;
+	position: absolute;
+}
+
+#patient-window-top {
+	background: url(../images/patient_information.png) no-repeat;
+	width: 251px;
+	height: 26px;
+	margin-left: 40px;
+	margin-top: 40px;
+	float: left;
+}
+
+#error-message {
+
+	float: right;
+	margin-right: 40px;
+	width: 260px;
+	margin-top: 32px;
+	display: none;
+}
+
+#lblErrorMsg{
+	color: #B22222;
+	font-size: 14px;
+	font-weight: bolder;
+	float: left;
+	letter-spacing: -1.5px;
+	}
+
+#patient-view-window {
+	width: 436px;
+	height: 128px;
+	font-weight: bolder;
+	font-size: 13px;
+	float: right;
+	color: #666;
+}
+
+#patient-view-window-top {
+	background: url(../images/patient_information.png) no-repeat;
+	display: table-cell;
+	float: left;
+	width: 251px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+#patient-view-window-edit-option {
+	background: url(../images/patient_edit_button.png) no-repeat;
+	width: 32px;
+	height: 18px;
+	float: right;
+	margin-top: 9px;
+	margin-right: 14px;
+	-webkit-background-size: cover;
+}
+
+#patient-view-window-edit-option:hover {
+	background: url(../images/patient_edit_button_on.png) no-repeat;
+}
+
+.patient-window-divider {
+	background: transparent url(../images/divider.png) repeat-x;
+	width: 565px;
+	height: 1px;
+	float: left;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.patient-view-window-divider {
+	background: transparent url(../images/divider.png) repeat-x;
+	width: 404px;
+	height: 1px;
+	display: inline-block;
+	margin-left: 0px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0.8em;
+	position: relative;
+	left: 9px;
+}
+
+#patient-view-window-right {
+	float: right;
+	width: 50%;
+	height: 100px;
+}
+
+#patient-view-window-left {
+	float: left;
+	width: 40%;
+	height: 100px;
+	margin-left: 10px;
+}
+
+.patient-view-header-label {
+	color: #666666;
+}
+
+.patient-view-value-label_name {
+	color: #000000;
+	margin-left: 3px;
+	position: relative;
+	top:-0.2px;
+}
+
+.patient-view-value-label_gender {
+	color: #000000;
+	margin-left: 3px;
+	position: relative;
+	top:-0.2px;
+}
+
+.patient-view-value-label_employed {
+	color: #000000;
+	margin-left: 3px;
+	position: relative;
+	top:-0.2px;
+}
+
+.patient-view-value-label_age {
+	color: #000000;
+	margin-left: 3px;
+	position: relative;
+	top:-0.2px;
+}
+
+.patient-view-value-label_weight {
+	color: #000000;
+	margin-left: 3px;
+	height: 2000px;
+	position: relative;
+	top:-0.2px;
+}
+
+.patient-view-value-label_duration {
+	color: #000000;
+	margin-left: 3px;
+	position: static;
+	top:-0.2px;
+}
+
+
+.slider-selections {
+	width: 50%;
+	heigth: 100%;
+	float: right;
+}
+
+.slider-selection {
+	height: 96px;
+}
+
+.radio-selections {
+	width: 50%;
+	heigth: 100%;
+	float: left;
+}
+
+.radio-selection {
+	height: 96px;
+}
+
+.radio-buttons {
+	margin-left: 40px;
+	margin-top: 10px;
+	float: left;
+}
+.radio-button {
+	background: transparent url(../images/radio_button.png) no-repeat;
+	width: 17px;
+	height: 17px;
+	float: left;
+	display: inline-block;
+}
+
+.pi-radio-button {
+	background: transparent url(../images/pi_radio_button.png) no-repeat;
+	width: 50px;
+	height: 17px;
+	float: left;
+	display: inline-block;
+}
+
+.radio-buttons-text {
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	width: 60px;
+	float: left;
+	display: inline-block;
+}
+
+.radio-button-selected {
+	background: transparent url(../images/radio_btn_selected.png) no-repeat;
+	width: 17px;
+	height: 17px;
+	float: left;
+	display: inline-block;
+}
+
+.pi-radio-button-selected {
+	background: transparent url(../images/pi_radio_btn_selected.png) no-repeat;
+	width: 50px;
+	height: 17px;
+	float: left;
+	display: inline-block;
+}
+
+.slider-area {
+	width: 260px;
+	float: right;
+	display: inline-block;
+	padding: 10px 30px 0 0;
+}
+
+.slider-bar {
+	float: left;
+	width: 152px;
+}
+
+.age_slider {
+	background: transparent url(../images/slider_bar.png) no-repeat !important;
+	border-radius: 0px 0px 0px 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	border: none !important;
+	padding-left: 5px !important;
+	height: 20px !important;
+}
+
+.weight_slider {
+	background: transparent url(../images/slider_bar.png) no-repeat !important;
+	border-radius: 0px 0px 0px 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	border: none !important;
+	padding-left: 5px !important;
+	height: 20px !important;
+}
+
+.duration_slider {
+	background: transparent url(../images/slider_bar.png) no-repeat !important;
+	border-radius: 0px 0px 0px 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	border: none !important;
+	padding-left: 5px !important;
+	height: 20px !important;
+}
+
+.age_slider a {
+	background: url(../images/slider_handle.png) no-repeat top center !important;
+	border-radius: 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	width: 13px !important;
+	height: 27px !important;
+	margin: -2px 0 0 0;
+}
+
+.duration_slider a {
+	background: url(../images/slider_handle.png) no-repeat top center !important;
+	border-radius: 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	width: 13px !important;
+	height: 27px !important;
+	margin: -2px 0 0 0;
+}
+
+.weight_slider  a {
+	background: url(../images/slider_handle.png) no-repeat top center !important;
+	border-radius: 0px/*{cornerRadius}*/ !important;
+	-moz-border-radius: 0px/*{cornerRadius}*/ !important;
+	-webkit-border-radius: 0px/*{cornerRadius}*/ !important;
+	border-color: transparent !important;
+	width: 13px !important;
+	height: 27px !important;
+	margin: -2px 0 0 0;
+}
+
+.age_slider_min {
+	float: left;
+	width: 88px;
+	padding: 0 0 0 0px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.age_slider_max {
+	float: right;
+	width: 11px;
+	/*padding: 0 0 0 0px;*/
+	font-size: 11px;
+	font-weight: bold;;
+}
+
+.weight_slider_min {
+	float: left;
+	width: 88px;
+	padding: 0 0 0 0px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.weight_slider_max {
+	float: right;
+	width: 10px;
+	padding: 0 0 0 0px;
+	font-size: 11px;
+	font-weight: bold;;
+}
+
+.duration_slider_min {
+	float: left;
+	width: 88px;
+	padding: 0 0 0 0px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.duration_slider_max {
+	float: right;
+	width: 11px;
+	padding: 0 0 0 0px;
+	font-size: 11px;
+	font-weight: bold;;
+}
+
+.ruler {
+	width: 100%;
+	color: #636363;
+	font-size: 1em;
+}
+
+.min-val {
+	color: #FFFFFF;
+	float: left;
+	width: 46%;
+	z-index: 200;
+	margin: 5px 0 0 0;
+}
+
+.max-val {
+	color: #FFFFFF;
+	float: right;
+	margin: 5px 0 0 0;
+	width: 45px;
+}
+
+.text-area {
+	width: 260px;
+	float: right;
+	display: inline-block;
+	padding: 10px 30px 0 0;
+}
+
+.name-text-area {
+	width: 150px;
+	font-size: 16px;
+	color: #235C6F;
+	font-weight: bold;
+}
+
+.name-text {
+	width: 185px;
+}
+
+.slider-text {
+	width: 38px;
+}
+
+.slider-text-area {
+	float: right;
+	width: 88px;
+	padding: 0 0 0 20px;
+	font-size: 13px;
+	color: #235C6F;
+	font-weight: bold;
+}
+
+.units {
+	padding: 2px 0 0 2px;
+}
+
+.button-start {
+	background: transparent url(../images/button_start.png) no-repeat;
+	border: none;
+	width: 170px;
+	height: 61px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 10px 7px 10px 250px;
+	float: left;
+	display: inline-block;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	font: 12px Sans-serif;
+	background:#cccccc url("../images/background.png") repeat-x;
+	padding: 15px 0 0 0;
+}
+
+.screen {
+	margin:0 auto;
+	width:985px;
+}
+
+.top-navigation-bar #logo {
+	width: 300px;
+	float: left;
+	display:inline-block;
+}
+
+.top-navigation-bar #logo a {
+	display: block;
+	width:190px;
+	height:19px;
+	background:url("../images/logo.png") no-repeat;
+}
+
+.shell {
+	padding: 0;
+}
+
+.shell .topBorder {
+	background:url("../images/top.png") no-repeat;
+	width: 985px;
+	height: 8px;
+}
+
+.leftBorder {
+	background:url("../images/left.png") no-repeat;
+	width: 9px;
+	height: 560px;
+}
+
+.rightBorder {
+	background:url("../images/right.png") no-repeat;
+	width: 7px;
+	height: 560px;
+	float: right;
+}
+
+.shell .bottomBorder {
+	background:url("../images/bottom.png") no-repeat;
+	width: 985px;
+	height: 8px;
+}
+
+.error {
+	border-style: solid;
+	border-color: black;
+	background-color: #FF85A3;
+}
+
+.shell #container {
+	float: right;
+	background: #FFFFFF;
+	width: 970px;
+	height: 560px;
+}
+
+.shell #container-cover {
+	background: url(../images/background_cover.png) no-repeat;
+	width: 968px;
+	height: 560px;
+	float: right;
+	z-index: 20;
+	position: absolute;
+}
+
+
+#psoriasis-canvas {
+	float: left;
+	height: 560px;
+	width: 421px;
+	margin-left: 111px;
+	background: #DFECEC;
+	z-index: 1;
+}
+
+#psoriasis-image-canvas {
+	float: left;
+	height: 560px;
+	width: 421px;
+	margin-left: 111px;
+	z-index: 2;
+	position: absolute;
+	background: transparent;
+}
+
+.female-image {
+	width: 421px !important;
+}
+
+.male-image {
+	width: 421px !important;
+}
+
+#base-image {
+	width: 421px;
+	height: 560px;
+	z-index: 2;
+	position: absolute;
+}
+
+#psoriasis-hexagon-canvas {
+	float: left;
+	height: 560px;
+	width: 421px;
+	margin-left: 111px;
+	z-index: 3;
+	position: absolute;
+	background: transparent;
+}
+
+#psoriasis-masking-canvas {
+	float: left;
+	height: 560px;
+	width: 421px;
+	margin-left: 111px;
+	z-index: 4;
+	position: absolute;
+	background: transparent;
+}
+
+#masking-image {
+	width: 421px;
+	height: 560px;
+	z-index: 4;
+	margin-left: 0px;
+	position: absolute;
+}
+
+#psoriasis-itch-canvas {
+	float: left;
+	height: 560px;
+	width: 421px;
+	margin-left: 111px;
+	z-index: 5;
+	position: absolute;
+	background: transparent;
+}
+
+#itch-image {
+	width: 421px;
+	height: 560px;
+	z-index: 5;
+	margin-left: 0px;
+	position: absolute;
+	opacity: 0;
+}
+
+#psoriasis-pain-canvas {
+	float: left;
+	height: 560px;
+	width: 421px;
+	margin-left: 111px;
+	z-index: 6;
+	position: absolute;
+	background: transparent;
+}
+
+#pain-image {
+	width: 421px;
+	height: 560px;
+	z-index: 6;
+	margin-left: 0px;
+	position: absolute;
+	opacity: 0;
+}
+
+#psoriasis-event-canvas {
+	float: left;
+	height: 560px;
+	width: 421px;
+	margin-left: 111px;
+	z-index: 6;
+	position: absolute;
+	background: transparent;
+	cursor:url(plaque_severity_black.png), auto;
+}
+
+#psoriasis-event-canvas-bottom{
+	background: url(../images/clear_button.png) no-repeat;
+	position:absolute;
+	width: 100px;
+	height: 36px;
+	margin-top: 510px;
+	margin-left: 165px;
+	z-index: 7;
+
+}
+
+#psoriasis-event-canvas-bottom:hover{
+	background: url(../images/clear_button_mouseOn.png) no-repeat;
+}
+
+#event-image {
+	width: 421px;
+	height: 560px;
+	z-index: 6;
+	margin-left: 0px;
+	position: absolute;
+	cursor:arrow;
+}
+
+.label {
+	width: 100px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#gender {
+	background: transparent url(../images/gender_label.png) no-repeat;
+	width: 98px;
+	height: 21px;
+}
+
+#gender_view {
+	width: 50px;
+	height: 21px;
+}
+
+#male {
+	background: transparent url(../images/male_label.png) no-repeat;
+	width: 98px;
+	height: 21px;
+}
+
+#female {
+	background: transparent url(../images/female_label.png) no-repeat;
+	width: 98px;
+	height: 21px;
+}
+
+#employed {
+	background: transparent url(../images/employed_label.png) no-repeat;
+	width: 98px;
+	height: 21px;
+}
+
+#employed_view {
+	width: 98px;
+	height: 21px;
+}
+
+#yes {
+	background: transparent url(../images/yes_label.png) no-repeat;
+	width: 98px;
+	height: 21px;
+}
+
+#no {
+	background: transparent url(../images/no_label.png) no-repeat;
+	width: 98px;
+	height: 21px;
+}
+
+#years {
+	background: transparent url(../images/years_label.png) no-repeat;
+	width: 35px;
+	height: 17px;
+}
+
+#kgs {
+	background: transparent url(../images/kgs_label.png) no-repeat;
+	width: 25px;
+	height: 17px;
+}
+
+
+#name {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	height: 21px;
+	float: left;
+}
+
+#age {
+	background: transparent url(../images/age_label.png) no-repeat;
+	width: 98px;
+	height: 21px;
+	color: red;
+}
+
+#name_view {
+	height: 21px;
+}
+
+#age_view {
+	height: 21px;
+}
+
+#weight_view {
+	width: 120px;
+	height: 21px;
+	background-color: transparent;
+}
+
+#psoriasisduration {
+	background: transparent url(../images/psoriasis_duration_label.png) no-repeat;
+	width: 150px;
+	height: 21px;
+}
+
+#psoriasisduration_view {
+	width: 185px;
+	height: 21px;
+}
+
+#silhouettes {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	padding: 2px;
+	height: 450px;
+	width: 330px;
+}
+
+#plaques {
+	position: absolute;
+	z-index: 9;
+}
+
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	padding: 2px;
+	height: 450px;
+	width: 330px;
+
+}
+
+.plaque-cursor {
+	cursor: pointer;
+}
+
+.invisible {
+	display: none;
+}
+
+.plaque_severity_one {
+	position: absolute;
+	background:url(../images/plaque_severity_one.png) no-repeat ;
+	height: 10px;
+	width: 10px;
+	z-index: 7;
+}
+
+.plaque_severity_two {
+	position: absolute;
+	background:url(../images/plaque_severity_two.png) no-repeat ;
+	height: 10px;
+	width: 10px;
+	z-index: 7;
+}
+
+.plaque_severity_three {
+	position: absolute;
+	background:url(../images/plaque_severity_three.png) no-repeat ;
+	height: 10px;
+	width: 10px;
+	z-index: 7;
+}
+
+.plaque_severity_four {
+	position: absolute;
+	background:url(../images/plaque_severity_four.png) no-repeat ;
+	height: 10px;
+	width: 10px;
+	z-index: 7;
+}
+
+.plaque_severity_five {
+	position: absolute;
+	background:url(../images/plaque_severity_five.png) no-repeat ;
+	height: 10px;
+	width: 10px;
+	z-index: 7;
+}
+
+.plaque_severity_six {
+	position: absolute;
+	background:url(../images/plaque_severity_six.png) no-repeat ;
+	height: 10px;
+	width: 10px;
+	z-index: 7;
+}
+
+
+.tabContainerLeftBorder
+{
+    border-left: 1.5px solid #aaaaaa;
+    position: absolute;
+    height: 325PX;
+    margin-top: 35px;
+    margin-left: -1px;
+    z-index: 1;
+}
+
+.tabOverallOutcomeHeaderBorderBottom
+{
+    border: 1px solid #AAA;
+    width: 166px;
+    top: 33px;
+    left: 219px;
+    z-index: 100;
+    position:absolute;
+    display:none;
+}
+
+li#tab-left{
+	background:url(../images/tabs-top-right1.png);
+	width:221px;
+	height:37px;
+	background-repeat: no-repeat;
+	position: relative;
+    margin-top:-2px;
+        margin-left:-1px;
+
+}
+
+li#tab-right{
+	background:url(../images/tabs-top-left2.png);
+	width:201px;
+	height:37px;
+	background-repeat: no-repeat;
+	margin-top:-2px;
+}
+
+li#tab-right a, li#tab-left a  {
+	color:#aaa;
+}
+
+div#impact-graphs{
+
+	width:427px;
+	float:left;
+	margin-left: 5px;
+    }
+
+div#tabscontainer{
+	/*background:url(../images/tabs-body.png);*/
+	padding:0px;
+	margin-left:-1px;
+	height:320px;
+	float:left;
+	width:440px;
+}
+
+
+li.ui-state-active.ui-tabs-selected#tab-left{
+	background:url(../images/tabs-top-right4.png);
+	background-repeat: no-repeat;
+	width:225px;
+}
+
+li.ui-state-active.ui-tabs-selected#tab-right{
+	background:url(../images/tabs-top-left1.png);
+	background-repeat: no-repeat;
+    margin-top: 1px;
+    width: 205px;
+}
+
+li.ui-state-active.ui-tabs-selected#tab-right a,li.ui-state-active.ui-tabs-selected#tab-left a{
+	color:#225a6d;
+}
+
+.graphkey{
+	width:15px;
+	height:15px;
+	display:inline;
+	float:left;
+	margin-right:5px;
+}
+
+.highcolor{
+	background-color:#a72c32;
+}
+
+
+.midcolor{
+	background-color:#e91d26;
+}
+
+
+.lowcolor{
+	background-color:#f79433;
+}
+
+.legend-note{
+	width:198px;
+	height:50px;
+	margin-left: -10px;
+}
+
+
+div.legendkeys div.key{
+	max-width:100px;
+	float:right;
+	padding-left: 0px;
+	margin-right: 10px;
+}
+
+.legend{
+	font-size:12px;
+	font-weight: bold;
+	color:#333
+}
+
+.legendkeys{
+	margin-top:-60px;
+	margin-right: 8px;
+}
+
+.legendpercents{
+	clear:both;
+	margin-top:50px;
+
+}
+
+.lowpercent{
+	width:150px;
+	float:right;
+	margin-right:2px;
+}
+
+.highpercent{
+	float:right;
+	padding-right:9.5px;
+}
+
+
+.graphshift{
+	width:60%;
+	display:inline;
+}
+
+.legendend{
+	clear:both;
+}
+
+.ui-tabs .ui-tabs-nav li a{
+	font-size:15px;
+	font-weight: bold;
+	padding:9px;
+
+}
+
+
+div#chart4{
+	border:solid 3px red;
+	width:200px;
+	height:150px;
+}
+
+div.stacks{
+	width:173px;
+	display:inline;
+	float:left;
+	margin-bottom: 5px;
+}
+
+div.stacks img.bar{
+	float:left;
+	height:18px;
+}
+
+div.barname{
+	width:223.5px;
+	float:left;
+	text-align:right;
+	font-size:12px;
+	margin-right:10px;
+	margin-bottom:5px;
+	margin-left:-10px;
+}
+
+div.barcontainer{
+
+}
+
+ul.tab-header-group{
+	float:left;
+	margin-top: -3px;
+}
+
+a.tab-header
+{
+    font-size:14px;
+	display:block;
+	width:100%;
+}
+
+.dlqiinfotext{
+	font-weight: bold;
+	font-size:13px;
+	color:#333
+}
+.dlqisummary
+{
+    height:32px;
+	color:#225a6d;
+	font-weight: bold;
+	font-size:13px;
+	margin-left:10px;
+}
+.dlqiResultText
+{
+    float:left;
+}
+.dlqisummarysuffix{
+	color:#666;
+	font-weight: bold;
+	font-size:13px
+}
+
+#dlqimarker{
+	background:url(../images/DLQIArrow.png) no-repeat;
+	width:21px;
+	height:18px;
+	margin-left:-8px;
+}
+
+#dlqiMarkerScore
+{
+    position:absolute;
+  	width: 220px;
+	background: white;
+	border: 3px solid #0888C3;
+	padding: 5px;
+	z-index: 100;
+	font-weight: bold;
+	top:90px;
+}
+
+#dlqimarker .value{
+	color:#000;
+	font-weight: bold;
+	font-size:12px;
+	padding-top:7px;
+	text-align:center;
+	margin-left:-1px;
+}
+.dlqiscale{
+	background:url(../images/DLQIScale.png);
+	width:382px;
+	height:26px;
+	margin-left:-4px;
+}
+
+.dlqiScaleMarker
+{
+    height: 19px;
+    border: 2px solid black;
+    position: absolute;
+}
+
+#console table, #console table tr, #console table tr td, #console table tr td p{
+	padding:0px;
+	margin:0px;
+}
+
+#aggregate-score-panel {
+    float: right;
+    height: 70px;
+    width: 436px;
+
+	color: #666666;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.score-display{
+	background:url(../images/score-display.png) no-repeat;
+	float:left;
+	height:25px;
+	width :155px;
+	padding: 5px
+}
+
+#coverage_and_Pasi_view
+{
+    margin-top:10px;
+	margin-left:10px;
+	width: 380px;
+	float: left;
+	display: inline-block;
+}
+
+#coverage_and_Pasi_view span{
+font-weight: bolder;
+color:#225a6d;
+}
+
+#sortButton {
+ background:url(../images/sort_button_off.png) no-repeat;
+}
+
+#sortButton:hover{
+ background:url(../images/sort_button_on.png) no-repeat;
+}
+
+#unsortButton {
+ background:url(../images/unsort_button_off.png) no-repeat;
+}
+
+#unsortButton:hover{
+ background:url(../images/unsort_button_on.png) no-repeat;
+}
+
+.orderButton
+{
+ width: 50px;
+ height:23px;
+ left: 165px;
+ position: absolute;
+ top: 8px;
+ cursor:pointer;
+}
+
+.chartText{
+	color:#666;
+	font-weight: bold;
+	font-size:13px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	float: left;
+	margin-left:11px;
+}
+
+.chartText span{
+	font-weight:bolder;
+	color:#225a6d;
+}
+
+.QOLGraph{
+	display:block;
+	float:left;
+	clear:right;
+	position:relative;
+	height: 70px;
+	margin-top:5px;
+}
+
+div.barchart{
+	background:url(../images/chartbar.png) no-repeat;
+	height:39px;
+	width:360px;
+	display:inline;
+	float:left;
+	margin-left:11px;
+}
+div.barchart div.graph{
+	height:21px;
+	width: 355px;
+	padding-top:2px;
+	padding-left:2px;
+}
+div.barchart div.graph div.bar{
+	float:left;
+	height:21px;
+}
+
+.chartcolor{
+	background-color:#1789C5;
+}
+
+#about-screen-container
+{
+	padding-left: 40px;
+	padding-right:40px;
+	padding-bottom: 20px;
+}
+
+.about-screen-container p
+{
+	text-align: justify;
+}
+
+.about-screen-explanationOfInputs li
+{
+	font-weight: bold;
+}
+
+.about-screen-explanationOfInputs-plaques img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2px;
+}
+
+.about-screen-psoriasis-severity
+{
+	margin: 0 auto;
+}
+
+#about-screen-psoriasis-severity div
+{
+	display: inline;
+}
+
+.about-screen-psoriasis-severity1-picture img
+{
+	width: 200px;
+	height: 175px;
+	margin-left: 40px;
+}
+
+.about-screen-psoriasis-severity2-picture img
+{
+	width: 400px;
+	height: 300px;
+}
+
+.about-screen-psoriasis-severity5-picture img
+{
+	width: 200px;
+	height: 300px;
+	position: relative;
+	left: 200px;
+}
+
+.about-screen-psoriasis-severity-arrow img
+{
+	width: 100px;
+	position: relative;
+	top:-120px;
+	left: 25px
+}
+
+.about-screen-psoriasis-severity5-arrow img
+{
+	width: 100px;
+	position: relative;
+	top:-120px;
+	left: 225px
+}
+
+.about-screen-psoriasis-severity-plaque img
+{
+	width: 100px;
+	height: 70px;
+	position: relative;
+	top: -120px;
+	left: 50px;
+}
+
+.about-screen-psoriasis-severity5-plaque img
+{
+	width: 100px;
+	height: 70px;
+	position: relative;
+	top: -120px;
+	left: 250px;
+}
+
+.about-screen-sourceData li
+{
+	font-weight: bold;
+}
+
+span.underline
+{
+	text-decoration:underline;
+}
+
+
+}
+
+hr
+{
+  -webkit-margin-start: -0.8em;
+  -webkit-margin-end: 0.8em;
+}
+
+#about-screen-container
+{
+	padding-left: 40px;
+	padding-right:40px;
+	padding-bottom: 20px;
+}
+
+.about-screen-container p
+{
+	text-align: justify;
+}
+
+.about-screen-explanationOfInputs li
+{
+	font-weight: bold;
+}
+
+.about-screen-explanationOfInputs-plaques img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2px;
+}
+
+.about-screen-psoriasis-severity p
+{
+	text-align: left;
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+.about-screen-psoriasis-severity
+{
+	margin: 0 auto;
+}
+
+
+#about-screen-psoriasis-severity div
+{
+	display: inline;
+}
+
+.about-screen-psoriasis-severity2-picture img
+{
+	width: 400px;
+	height: 300px;
+}
+
+.about-screen-psoriasis-severity5-picture img
+{
+	width: 200px;
+	height: 300px;
+	position: relative;
+	left: 200px;
+}
+
+.about-screen-psoriasis-severity-arrow img
+{
+	width: 100px;
+	position: relative;
+	top: -57px;
+	left: 65px;
+}
+
+.about-screen-psoriasis-severity5-arrow img
+{
+	width: 100px;
+	position: relative;
+	top:-120px;
+	left: 225px
+}
+
+.about-screen-psoriasis-severity-plaque img
+{
+	width: 100px;
+	height: 70px;
+	position: relative;
+	top: -51px;
+	left: 110px;
+}
+
+.about-screen-psoriasis-severity5-plaque img
+{
+	width: 100px;
+	height: 70px;
+	position: relative;
+	top: -120px;
+	left: 250px;
+}
+
+.about-screen-sourceData li
+{
+	font-weight: bold;
+}
+
+#help-screen-container
+{
+	padding-left: 40px;
+	padding-right:40px;
+	padding-bottom: 20px;
+}
+#help-screen-psoriasis-severity div
+{
+	display: inline;
+}
+#help-screen-container
+{
+	padding-left: 40px;
+	padding-right:40px;
+	padding-bottom: 20px;
+}
+#help-screen-psoriasis-severity div
+{
+	display: inline;
+}
+
+.help-screen-center
+{
+	margin-left: 40px;
+}
+
+.help-screen-center li
+{
+	margin-top: 4px;
+	margin-bottom:4px;
+}
+
+span.underline
+{
+	text-decoration:underline;
+}
+
+/* use a pointy hand for inputs */
+#btnStart,
+#psoriasis-event-canvas-bottom,
+#home-nav-option, #about-nav-option, #print-nav-option,
+#patient-view-window-edit-option, #sortButton,
+#severity-plaque-level1, #severity-plaque-level2, #severity-plaque-level3,
+#severity-plaque-level4, #severity-plaque-level5, #severity-plaque-level6,
+#severity-add-option, #severity-reduce-option, #severity-remove-option,
+.radio-button, .radio-button-selected,
+.ui-slider-horizontal,
+.ui-slider-horizontal .ui-slider-handle,
+.info-bubble-icon, .info-bubble-icon-inactive
+{
+	cursor: pointer;
+}
+
+#label-name {
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+/* DE129: css to setup interface that allows the user to enter weight using kilograms or pounds */
+#label-weight {
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#label-weight .radio-buttons {
+	float: left;
+	margin-left: 2px;
+	margin-top: 1px;
+}
+
+#label-weight .radio-buttons-text {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	float: left;
+	display: inline-block;
+	width: auto;
+}
+
+#weight, #label-weight .lparen, #label-weight .rparen {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	height: 21px;
+	float: left;
+}
+
+#label-weight .lparen {
+	margin-left: 5px;
+}
+
+#label-weight .rparen {
+	margin-left: 2px;
+}
+
+#weight-unit-txt-kgs, #weight-unit-txt-lbs {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #225a6d;
+	height: 21px;
+}
+
+#weightUnitLbs {
+	margin-left: 10px;
+}
+
+.rightBorder-for-about-page{
+	background: url("../images/right.png") repeat-y;
+	width: 7px;
+	height: 4790px;
+	float: right;
+}
+
+.leftBorder-for-about-page{
+	background: url("../images/left.png") repeat-y;
+	width: 9px;
+	height: 4790px;
+}
+
+.rightBorder-for-help-page{
+	background: url("../images/right.png") repeat-y;
+	width: 7px;
+	height: 2937px;
+	float: right;
+}
+
+.leftBorder-for-help-page{
+	background: url("../images/left.png") repeat-y;
+	width: 9px;
+	height: 2937px;
+}
+
+.print-score-data-label3 {
+	float: left;
+	margin-top: 1px;
+	width: 100%;
+	padding-left: 20px;
+}
+
+
+
+/*New instruction functionality */
+
+.instructionTitle
+{
+    font-weight:bold;
+    font-size:16px;
+    color:#0882bb;
+    margin:0 0 10px 3px;
+}
+
+.instructionStepsContainer
+{
+    margin-left:15px;
+}
+
+
+.instructionStep1Active
+{
+    background: transparent url(../images/instructions_step1_active.png) no-repeat;
+    width:415px;
+    height:201px;
+    margin-bottom:5px;
+
+}
+
+.instructionStep1Inactive
+{
+    background: transparent url(../images/instructions_step1_inactive.png) no-repeat;
+    width:415px;
+    height:201px;
+    z-index:10;
+    margin-bottom:5px;
+
+}
+
+.instructionStep2Active
+{
+    background: transparent url(../images/instructions_step2_active.png) no-repeat;
+    width:421px;
+    height:144px;
+}
+
+.instructionStep2Inactive
+{
+    background: transparent url(../images/instructions_step2_inactive.png) no-repeat;
+    width:421px;
+    height:144px;
+}
+.instructionsDoneButton
+{
+    background: transparent url(../images/btn_instructions_done.png) no-repeat;
+    width:64px;
+    height:23px;
+    position:relative;
+    left:225px;
+    top:171px;
+    cursor:pointer;
+}
+
+.instructionsDoneButtonStep2
+{
+    top:109px;
+}
+/* Tool tip for settings of pain and itching values */
+.itchMenuSelector{
+	background: white;
+    padding:0px 0px 10px 0px;
+}
+
+.menuSelectorRadioButton{
+		float:left;
+		height:30px;
+	}
+.menuSelectorRadioButtonText
+{
+    margin-left:15px;
+	font-family: Arial;
+    font-size: 10px;
+    color: #343633;
+}
+
+.selectorButton{
+	background: transparent url(../images/button_ok.png) no-repeat;
+	width: 39px;
+	height: 22px;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.selectorButton:hover{
+	background: transparent url(../images/button_ok.png) no-repeat;
+	width: 39px;
+	height: 22px;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor:pointer;
+}
+
+.painItchToolTipIcon{
+	float: left;
+	z-index: 100;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	}
+.sliderLabelContainer{
+		float:left; width: 103px;margin-left: -11px;font-family: Arial; font-size: 11px;color: #343633;
+	}
+
+.itchPainTextContainer {
+	float: left;
+	width: 42px;
+}
+
+.itchPainInfoContainer {
+float: left;
+margin-left: 8px;
+margin-top:5px;
+}
+
+/* End of Region */
+
+/* DE129: css to setup interface that allows the user to enter weight using kilograms or pounds */
+#label-weight {
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#label-weight .radio-buttons {
+	float: left;
+	margin-left: 2px;
+	margin-top: 1px;
+}
+
+#label-weight .radio-buttons-text {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	float: left;
+	display: inline-block;
+	width: auto;
+}
+
+#weight, #label-weight .lparen, #label-weight .rparen {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	height: 21px;
+	float: left;
+}
+
+#label-weight .lparen {
+	margin-left: 5px;
+}
+
+#label-weight .rparen {
+	margin-left: 2px;
+}
+
+#weight-unit-txt-kgs, #weight-unit-txt-lbs {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #225a6d;
+	height: 21px;
+}
+
+#weightUnitLbs {
+	margin-left: 10px;
+}
+
+.print-score-data-label3 {
+	float: left;
+	margin-top: 1px;
+	width: 100%;
+	padding-left: 20px;
+}
+
+.print-score-data-label3 {
+	float: left;
+	margin-top: 1px;
+	width: 100%;
+	padding-left: 20px;
+}
+
+/* DE129: css to setup interface that allows the user to enter weight using kilograms or pounds */
+#label-weight {
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#label-weight .radio-buttons {
+	float: left;
+	margin-left: 2px;
+	margin-top: 1px;
+}
+
+#label-weight .radio-buttons-text {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	float: left;
+	display: inline-block;
+	width: auto;
+}
+
+#weight, #label-weight .lparen, #label-weight .rparen {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	height: 21px;
+	float: left;
+}
+
+#label-weight .lparen {
+	margin-left: 5px;
+}
+
+#label-weight .rparen {
+	margin-left: 2px;
+}
+
+#weight-unit-txt-kgs, #weight-unit-txt-lbs {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #225a6d;
+	height: 21px;
+}
+
+#weightUnitLbs {
+	margin-left: 10px;
+}
+
+.print-score-data-label3 {
+	float: left;
+	margin-top: 1px;
+	width: 100%;
+	padding-left: 20px;
+}
+
+.painItchOptionTitle
+{
+    margin-bottom:10px;
+    font-weight:bold;
+    font-size:12px;
+    color:#333;
+    width:111px;
+    text-align:center;
+}
+
+.menuSelectorText {
+	font-size: 10px;
+	display: inline-block;
+	margin-left:-2px;
+}
+
+.menuSelectorRadioButton{
+		float:left;
+		height:30px;
+	}
+.menuSelectorRadioButtonText{
+	float:right;
+	postion:absolute;
+	right:0;
+}
+
+.selectorButton{
+	background: transparent url(../images/button_ok.png) no-repeat;
+	width: 39px;
+	height: 22px;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.selectorButton:hover{
+	background: transparent url(../images/button_ok.png) no-repeat;
+	width: 39px;
+	height: 22px;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor:pointer;
+}
+
+/* DE129: css to setup interface that allows the user to enter weight using kilograms or pounds */
+#label-weight {
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#label-weight .radio-buttons {
+	float: left;
+	margin-left: 2px;
+	margin-top: 1px;
+}
+
+#label-weight .radio-buttons-text {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	float: left;
+	display: inline-block;
+	width: auto;
+}
+
+#weight, #label-weight .lparen, #label-weight .rparen {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	height: 21px;
+	float: left;
+}
+
+#label-weight .lparen {
+	margin-left: 5px;
+}
+
+#label-weight .rparen {
+	margin-left: 2px;
+}
+
+#weight-unit-txt-kgs, #weight-unit-txt-lbs {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #225a6d;
+	height: 21px;
+}
+
+#weightUnitLbs {
+	margin-left: 10px;
+}
+
+.print-score-data-label3 {
+	float: left;
+	margin-top: 1px;
+	width: 100%;
+	padding-left: 20px;
+}
+
+/* DE131: css for getting started instructions panel */
+#instructions-panel {
+	float: right;
+	width: 436px;
+	color: #666;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+#instructions {
+	 margin-left: 10px;
+	 margin-top: 15px;
+	 width: 380px;
+	 float: left;
+	 display: inline-block;
+	 font-weight: bold;
+	 font-size: 16px;
+	 color: #333;
+	 text-align: left;
+}
+/* Confirmation during saving of change in gender */
+
+.confirmDiv{
+		font-weight: bold;
+		margin: 10px 7px 10px 40px;
+		float: left;
+		font-size:12px;
+		width:575px;
+		heigh:100px;
+		position:relative;
+		color: fireBrick;
+		font-size:14px;
+	}
+
+.confirmOk{
+	background: transparent url(../images/button_confirm_ok.png) no-repeat;
+	width: 92px;
+	height: 38px;
+	margin:5px;
+	cursor:pointer;
+	float:right;
+	margin-top: -8px;
+}
+
+.confirmCancel{
+	background: transparent url(../images/button_confirm_cancel.png) no-repeat;
+	width: 92px;
+	height: 38px;
+	margin:5px;
+	cursor:pointer;
+	float:right;
+	margin-right:8px;
+	margin-top: -8px;
+}
+.inputCover{
+	height:400px;width:600px; z-index:100; position:fixed;
+	}
+
+/* End of region */
+
+.print-score-data-label3 {
+	float: left;
+	margin-top: 1px;
+	width: 100%;
+	padding-left: 20px;
+}
+
+.info-bubble-container {
+	margin-top: 10px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	float: left;
+}
+
+.quality-info-bubble-container
+{
+    margin-top:0px;
+}
+
+.quality-info-bubble-text
+{
+    color:black;
+}
+
+.info-bubble-text {
+	width: 220px;
+	background: white;
+	border: 3px solid #0888C3;
+	padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+	display: block;
+	z-index: 100;
+	font-weight: bold;
+}
+
+.info-bubble-icon {
+	background: transparent url(../images/title_tip_icon.png) no-repeat;
+	width: 13px;
+	height: 14px;
+}
+
+.info-bubble-icon-inactive {
+	background: transparent url(../images/title_tip_icon_inactive.png) no-repeat;
+	width: 13px;
+	height: 14px;
+}
+
+.info-bubble-icon-inactive:hover {
+	background: transparent url(../images/title_tip_icon.png) no-repeat;
+}
+
+#activities-bubble, #work-productivity-bubble {
+	display: none;
+}
+
+
+
+
+/*-----Added by GP */
+.patient-nav-option {
+	background: transparent url(../images/help_navigation.png) no-repeat;
+	width: 56px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -5px;
+	z-index: 30;
+	cursor:pointer;
+}
+
+.patient-nav-option:hover {
+	background: transparent url(../images/help_navigation_selected.png) no-repeat;
+}
+
+.patient-nav-option-selected {
+	background: transparent url(../images/help_navigation_selected.png) no-repeat;
+	width: 56px;
+	height: 22px;
+	float: right;
+	margin-top: 0px;
+	margin-right: -235px;
+	z-index: 30;
+}
+
+
+
+#patient-screen-container
+{
+	padding-left: 40px;
+	padding-right:40px;
+	padding-bottom: 20px;
+}
+#patient-screen-psoriasis-severity div
+{
+	display: inline;
+}
+#patient-screen-container
+{
+	padding-left: 40px;
+	padding-right:40px;
+	padding-bottom: 20px;
+}
+#patient-screen-psoriasis-severity div
+{
+	display: inline;
+}
+
+.patient-screen-center
+{
+	margin-left: 40px;
+}
+
+.patient-screen-center li
+{
+	margin-top: 4px;
+	margin-bottom:4px;
+}
+
+
+.shell #patient-screen {
+	float: right;
+	background: #FFFFFF;
+	width: 970px;
+	display: none;
+}
